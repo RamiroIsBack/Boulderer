@@ -13,7 +13,7 @@ import java.util.List;
 
 import com.oblador.vectoricons.VectorIconsPackage;
 import com.reactnativenavigation.NavigationApplication;
-
+import com.airbnb.android.react.maps.MapsPackage;
 
 public class MainApplication extends NavigationApplication {
 
@@ -58,7 +58,9 @@ public class MainApplication extends NavigationApplication {
       // No need to add RnnPackage and MainReactPackage
       return Arrays.<ReactPackage>asList(
           // eg. new VectorIconsPackage()
-          new VectorIconsPackage()
+        new VectorIconsPackage(),
+        new MainReactPackage(),
+        new MapsPackage()
       );
   }
 
@@ -70,4 +72,5 @@ public class MainApplication extends NavigationApplication {
     public String getJSMainModuleName() {
         return "index";
   }
+  
 }

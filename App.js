@@ -1,6 +1,7 @@
 import { Navigation } from 'react-native-navigation';
 import {Provider} from 'react-redux';
-
+//Android API mapsKey: AIzaSyDmFLKpBo_cI2cGhkiygTSR7UI4C3hT544
+//IOS API mapsKey: AIzaSyBTr5rkEOzVq1yTdBEh-eDGmq-l35tSmrE
 import AuthScreen from './src/components/screens/Auth';
 import SharePlaceScreen from './src/components/screens/SharePlace';
 import FindPlaceScreen from './src/components/screens/FindPlace';

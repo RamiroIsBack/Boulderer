@@ -1,5 +1,5 @@
 export default{
   ADD_PLACE : 'ADD_PLACE',
   DELETE_PLACE : 'DELETE_PLACE',
-  
+  TRY_AUTH : 'TRY_AUTH',
 };

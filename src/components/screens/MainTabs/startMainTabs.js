@@ -42,13 +42,19 @@ const startMainTabs = () =>{
           }
         },
       ],
+      tabsStyle:{
+        tabBarSelectedButtonColor: 'blue'
+      },
       drawer:{
         left:{
           screen: 'bloka.SideDrower',
           title: 'sideDrower',
           icon: sources[2]
         }
-      }
+      },
+      appStyle:{
+        tabBarSelectedButtonColor: 'blue'
+      },
     });
   });
 }

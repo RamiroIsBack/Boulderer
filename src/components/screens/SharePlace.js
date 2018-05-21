@@ -7,10 +7,23 @@ import MainText from '../UI/MainText';
 import PickImageContainer from '../containers/PickImageContainer';
 import PickLocationContanier from '../containers/PickLocationContainer';
 import PlaceInput from '../presentational/placeInput';
+import validate from '../../utility/validation'
 
 class SharePlaceScreen extends Component {
+  static navigatorStyle = {
+    navBarButtonColor : 'blue'
+  }
   state = {
-    placeName:'',
+    controls:{
+      placeName:{
+        value:'',
+        valid:false,
+        touched:false,
+        validationRules:{
+          notEmpty:true,
+        }
+      },
+    }
     
   };
   constructor(props){
@@ -31,13 +44,24 @@ class SharePlaceScreen extends Component {
   };
 
   onChangeText = (input) =>{
-    this.setState({placeName:input});
+    this.setState(prevState=> {
+      return{
+        controls:{
+          ...prevState.controls,
+          placeName: {
+            ...prevState.controls.placeName,
+            value: input,
+            valid: validate(input,prevState.controls.placeName.validationRules),
+            touched: true
+          }
+        }
+      }
+      
+    });
   }
 
   placeAddedHandler = () =>{
-    if(this.state.placeName.trim() !== ''){
-      this.props.onAddPlace(this.state.placeName)
-    }
+    this.props.onAddPlace(this.state.controls.placeName.value)
   };
 
   render(){
@@ -57,7 +81,12 @@ class SharePlaceScreen extends Component {
           <PlaceInput
             placeholder = 'yo, where are u at!?'
             onChangeText = {this.onChangeText}
-            placeName = {this.state.placeName}
+            placeData = {this.state.controls.placeName}
+          />
+          <Button
+            title= 'comparte una zona'
+            onPress = {this.placeAddedHandler}
+            disabled= {!this.state.controls.placeName.valid}
           />
           
         </View>

@@ -12,7 +12,7 @@ const reducer = (state = initialState, action) => {
         places: state.places
           .concat(
             {
-              key: Math.random(),
+              key: Math.random().toString(),
               name: action.placeName,
               image: { uri: 'https://firebasestorage.googleapis.com/v0/b/micotextil-3f024.appspot.com/o/facebookTrans.png?alt=media&token=f0f02332-86fc-4ccf-b89a-ad54a29a8c79' }
             }
