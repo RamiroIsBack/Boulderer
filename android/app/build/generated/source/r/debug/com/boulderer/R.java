@@ -3559,28 +3559,29 @@ public final class R {
     public static final int design_text_input_password_icon=0x7f0a002d;
     public static final int dev_loading_view=0x7f0a002e;
     public static final int fps_view=0x7f0a002f;
-    public static final int notification_action=0x7f0a0030;
-    public static final int notification_action_tombstone=0x7f0a0031;
-    public static final int notification_media_action=0x7f0a0032;
-    public static final int notification_media_cancel_action=0x7f0a0033;
-    public static final int notification_template_big_media=0x7f0a0034;
-    public static final int notification_template_big_media_custom=0x7f0a0035;
-    public static final int notification_template_big_media_narrow=0x7f0a0036;
-    public static final int notification_template_big_media_narrow_custom=0x7f0a0037;
-    public static final int notification_template_custom_big=0x7f0a0038;
-    public static final int notification_template_icon_group=0x7f0a0039;
-    public static final int notification_template_lines_media=0x7f0a003a;
-    public static final int notification_template_media=0x7f0a003b;
-    public static final int notification_template_media_custom=0x7f0a003c;
-    public static final int notification_template_part_chronometer=0x7f0a003d;
-    public static final int notification_template_part_time=0x7f0a003e;
-    public static final int redbox_item_frame=0x7f0a003f;
-    public static final int redbox_item_title=0x7f0a0040;
-    public static final int redbox_view=0x7f0a0041;
-    public static final int select_dialog_item_material=0x7f0a0042;
-    public static final int select_dialog_multichoice_material=0x7f0a0043;
-    public static final int select_dialog_singlechoice_material=0x7f0a0044;
-    public static final int support_simple_spinner_dropdown_item=0x7f0a0045;
+    public static final int list_item=0x7f0a0030;
+    public static final int notification_action=0x7f0a0031;
+    public static final int notification_action_tombstone=0x7f0a0032;
+    public static final int notification_media_action=0x7f0a0033;
+    public static final int notification_media_cancel_action=0x7f0a0034;
+    public static final int notification_template_big_media=0x7f0a0035;
+    public static final int notification_template_big_media_custom=0x7f0a0036;
+    public static final int notification_template_big_media_narrow=0x7f0a0037;
+    public static final int notification_template_big_media_narrow_custom=0x7f0a0038;
+    public static final int notification_template_custom_big=0x7f0a0039;
+    public static final int notification_template_icon_group=0x7f0a003a;
+    public static final int notification_template_lines_media=0x7f0a003b;
+    public static final int notification_template_media=0x7f0a003c;
+    public static final int notification_template_media_custom=0x7f0a003d;
+    public static final int notification_template_part_chronometer=0x7f0a003e;
+    public static final int notification_template_part_time=0x7f0a003f;
+    public static final int redbox_item_frame=0x7f0a0040;
+    public static final int redbox_item_title=0x7f0a0041;
+    public static final int redbox_view=0x7f0a0042;
+    public static final int select_dialog_item_material=0x7f0a0043;
+    public static final int select_dialog_multichoice_material=0x7f0a0044;
+    public static final int select_dialog_singlechoice_material=0x7f0a0045;
+    public static final int support_simple_spinner_dropdown_item=0x7f0a0046;
   }
   public static final class menu {
     public static final int search_item=0x7f0b0000;
@@ -3710,8 +3711,8 @@ public final class R {
     public static final int Base_AlertDialog_AppCompat_Light=0x7f0f0008;
     public static final int Base_Animation_AppCompat_Dialog=0x7f0f0009;
     public static final int Base_Animation_AppCompat_DropDownUp=0x7f0f000a;
-    public static final int Base_DialogWindowTitle_AppCompat=0x7f0f000b;
     public static final int Base_DialogWindowTitleBackground_AppCompat=0x7f0f000c;
+    public static final int Base_DialogWindowTitle_AppCompat=0x7f0f000b;
     public static final int Base_TextAppearance_AppCompat=0x7f0f000d;
     public static final int Base_TextAppearance_AppCompat_Body1=0x7f0f000e;
     public static final int Base_TextAppearance_AppCompat_Body2=0x7f0f000f;
@@ -3759,20 +3760,6 @@ public final class R {
     public static final int Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item=0x7f0f0039;
     public static final int Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle=0x7f0f003a;
     public static final int Base_TextAppearance_Widget_AppCompat_Toolbar_Title=0x7f0f003b;
-    public static final int Base_Theme_AppCompat=0x7f0f003c;
-    public static final int Base_Theme_AppCompat_CompactMenu=0x7f0f003d;
-    public static final int Base_Theme_AppCompat_Dialog=0x7f0f003e;
-    public static final int Base_Theme_AppCompat_Dialog_Alert=0x7f0f003f;
-    public static final int Base_Theme_AppCompat_Dialog_FixedSize=0x7f0f0040;
-    public static final int Base_Theme_AppCompat_Dialog_MinWidth=0x7f0f0041;
-    public static final int Base_Theme_AppCompat_DialogWhenLarge=0x7f0f0042;
-    public static final int Base_Theme_AppCompat_Light=0x7f0f0043;
-    public static final int Base_Theme_AppCompat_Light_DarkActionBar=0x7f0f0044;
-    public static final int Base_Theme_AppCompat_Light_Dialog=0x7f0f0045;
-    public static final int Base_Theme_AppCompat_Light_Dialog_Alert=0x7f0f0046;
-    public static final int Base_Theme_AppCompat_Light_Dialog_FixedSize=0x7f0f0047;
-    public static final int Base_Theme_AppCompat_Light_Dialog_MinWidth=0x7f0f0048;
-    public static final int Base_Theme_AppCompat_Light_DialogWhenLarge=0x7f0f0049;
     public static final int Base_ThemeOverlay_AppCompat=0x7f0f004a;
     public static final int Base_ThemeOverlay_AppCompat_ActionBar=0x7f0f004b;
     public static final int Base_ThemeOverlay_AppCompat_Dark=0x7f0f004c;
@@ -3780,25 +3767,39 @@ public final class R {
     public static final int Base_ThemeOverlay_AppCompat_Dialog=0x7f0f004e;
     public static final int Base_ThemeOverlay_AppCompat_Dialog_Alert=0x7f0f004f;
     public static final int Base_ThemeOverlay_AppCompat_Light=0x7f0f0050;
+    public static final int Base_Theme_AppCompat=0x7f0f003c;
+    public static final int Base_Theme_AppCompat_CompactMenu=0x7f0f003d;
+    public static final int Base_Theme_AppCompat_Dialog=0x7f0f003e;
+    public static final int Base_Theme_AppCompat_DialogWhenLarge=0x7f0f0042;
+    public static final int Base_Theme_AppCompat_Dialog_Alert=0x7f0f003f;
+    public static final int Base_Theme_AppCompat_Dialog_FixedSize=0x7f0f0040;
+    public static final int Base_Theme_AppCompat_Dialog_MinWidth=0x7f0f0041;
+    public static final int Base_Theme_AppCompat_Light=0x7f0f0043;
+    public static final int Base_Theme_AppCompat_Light_DarkActionBar=0x7f0f0044;
+    public static final int Base_Theme_AppCompat_Light_Dialog=0x7f0f0045;
+    public static final int Base_Theme_AppCompat_Light_DialogWhenLarge=0x7f0f0049;
+    public static final int Base_Theme_AppCompat_Light_Dialog_Alert=0x7f0f0046;
+    public static final int Base_Theme_AppCompat_Light_Dialog_FixedSize=0x7f0f0047;
+    public static final int Base_Theme_AppCompat_Light_Dialog_MinWidth=0x7f0f0048;
+    public static final int Base_V11_ThemeOverlay_AppCompat_Dialog=0x7f0f0053;
     public static final int Base_V11_Theme_AppCompat_Dialog=0x7f0f0051;
     public static final int Base_V11_Theme_AppCompat_Light_Dialog=0x7f0f0052;
-    public static final int Base_V11_ThemeOverlay_AppCompat_Dialog=0x7f0f0053;
     public static final int Base_V12_Widget_AppCompat_AutoCompleteTextView=0x7f0f0054;
     public static final int Base_V12_Widget_AppCompat_EditText=0x7f0f0055;
+    public static final int Base_V21_ThemeOverlay_AppCompat_Dialog=0x7f0f005a;
     public static final int Base_V21_Theme_AppCompat=0x7f0f0056;
     public static final int Base_V21_Theme_AppCompat_Dialog=0x7f0f0057;
     public static final int Base_V21_Theme_AppCompat_Light=0x7f0f0058;
     public static final int Base_V21_Theme_AppCompat_Light_Dialog=0x7f0f0059;
-    public static final int Base_V21_ThemeOverlay_AppCompat_Dialog=0x7f0f005a;
     public static final int Base_V22_Theme_AppCompat=0x7f0f005b;
     public static final int Base_V22_Theme_AppCompat_Light=0x7f0f005c;
     public static final int Base_V23_Theme_AppCompat=0x7f0f005d;
     public static final int Base_V23_Theme_AppCompat_Light=0x7f0f005e;
+    public static final int Base_V7_ThemeOverlay_AppCompat_Dialog=0x7f0f0063;
     public static final int Base_V7_Theme_AppCompat=0x7f0f005f;
     public static final int Base_V7_Theme_AppCompat_Dialog=0x7f0f0060;
     public static final int Base_V7_Theme_AppCompat_Light=0x7f0f0061;
     public static final int Base_V7_Theme_AppCompat_Light_Dialog=0x7f0f0062;
-    public static final int Base_V7_ThemeOverlay_AppCompat_Dialog=0x7f0f0063;
     public static final int Base_V7_Widget_AppCompat_AutoCompleteTextView=0x7f0f0064;
     public static final int Base_V7_Widget_AppCompat_EditText=0x7f0f0065;
     public static final int Base_Widget_AppCompat_ActionBar=0x7f0f0066;
@@ -3813,13 +3814,13 @@ public final class R {
     public static final int Base_Widget_AppCompat_ActivityChooserView=0x7f0f006f;
     public static final int Base_Widget_AppCompat_AutoCompleteTextView=0x7f0f0070;
     public static final int Base_Widget_AppCompat_Button=0x7f0f0071;
+    public static final int Base_Widget_AppCompat_ButtonBar=0x7f0f0077;
+    public static final int Base_Widget_AppCompat_ButtonBar_AlertDialog=0x7f0f0078;
     public static final int Base_Widget_AppCompat_Button_Borderless=0x7f0f0072;
     public static final int Base_Widget_AppCompat_Button_Borderless_Colored=0x7f0f0073;
     public static final int Base_Widget_AppCompat_Button_ButtonBar_AlertDialog=0x7f0f0074;
     public static final int Base_Widget_AppCompat_Button_Colored=0x7f0f0075;
     public static final int Base_Widget_AppCompat_Button_Small=0x7f0f0076;
-    public static final int Base_Widget_AppCompat_ButtonBar=0x7f0f0077;
-    public static final int Base_Widget_AppCompat_ButtonBar_AlertDialog=0x7f0f0078;
     public static final int Base_Widget_AppCompat_CompoundButton_CheckBox=0x7f0f0079;
     public static final int Base_Widget_AppCompat_CompoundButton_RadioButton=0x7f0f007a;
     public static final int Base_Widget_AppCompat_CompoundButton_Switch=0x7f0f007b;
@@ -3864,250 +3865,251 @@ public final class R {
     public static final int CalendarDatePickerStyle=0x7f0f00a2;
     public static final int ClockTimePickerDialog=0x7f0f00a3;
     public static final int ClockTimePickerStyle=0x7f0f00a4;
-    public static final int DialogAnimationFade=0x7f0f00a5;
-    public static final int DialogAnimationSlide=0x7f0f00a6;
-    public static final int LightBox=0x7f0f00a7;
-    public static final int Modal=0x7f0f00a8;
-    public static final int ModalDefaultAnimations=0x7f0f00a9;
-    public static final int ModalFadeAnimation=0x7f0f00aa;
-    public static final int ModalNoAnimation=0x7f0f00ab;
-    public static final int ModalScreenAnimations=0x7f0f00ac;
-    public static final int ModalSlideHorizontal=0x7f0f00ad;
-    public static final int Platform_AppCompat=0x7f0f00ae;
-    public static final int Platform_AppCompat_Light=0x7f0f00af;
-    public static final int Platform_ThemeOverlay_AppCompat=0x7f0f00b0;
-    public static final int Platform_ThemeOverlay_AppCompat_Dark=0x7f0f00b1;
-    public static final int Platform_ThemeOverlay_AppCompat_Light=0x7f0f00b2;
-    public static final int Platform_V11_AppCompat=0x7f0f00b3;
-    public static final int Platform_V11_AppCompat_Light=0x7f0f00b4;
-    public static final int Platform_V14_AppCompat=0x7f0f00b5;
-    public static final int Platform_V14_AppCompat_Light=0x7f0f00b6;
-    public static final int Platform_V21_AppCompat=0x7f0f00b7;
-    public static final int Platform_V21_AppCompat_Light=0x7f0f00b8;
-    public static final int Platform_V25_AppCompat=0x7f0f00b9;
-    public static final int Platform_V25_AppCompat_Light=0x7f0f00ba;
-    public static final int Platform_Widget_AppCompat_Spinner=0x7f0f00bb;
-    public static final int RtlOverlay_DialogWindowTitle_AppCompat=0x7f0f00bc;
-    public static final int RtlOverlay_Widget_AppCompat_ActionBar_TitleItem=0x7f0f00bd;
-    public static final int RtlOverlay_Widget_AppCompat_DialogTitle_Icon=0x7f0f00be;
-    public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem=0x7f0f00bf;
-    public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup=0x7f0f00c0;
-    public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem_Text=0x7f0f00c1;
-    public static final int RtlOverlay_Widget_AppCompat_Search_DropDown=0x7f0f00c2;
-    public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1=0x7f0f00c3;
-    public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2=0x7f0f00c4;
-    public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Query=0x7f0f00c5;
-    public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Text=0x7f0f00c6;
-    public static final int RtlOverlay_Widget_AppCompat_SearchView_MagIcon=0x7f0f00c7;
-    public static final int RtlUnderlay_Widget_AppCompat_ActionButton=0x7f0f00c8;
-    public static final int RtlUnderlay_Widget_AppCompat_ActionButton_Overflow=0x7f0f00c9;
-    public static final int SpinnerDatePickerDialog=0x7f0f00ca;
-    public static final int SpinnerDatePickerStyle=0x7f0f00cb;
-    public static final int SpinnerTimePickerDialog=0x7f0f00cc;
-    public static final int SpinnerTimePickerStyle=0x7f0f00cd;
-    public static final int TextAppearance_AppCompat=0x7f0f00ce;
-    public static final int TextAppearance_AppCompat_Body1=0x7f0f00cf;
-    public static final int TextAppearance_AppCompat_Body2=0x7f0f00d0;
-    public static final int TextAppearance_AppCompat_Button=0x7f0f00d1;
-    public static final int TextAppearance_AppCompat_Caption=0x7f0f00d2;
-    public static final int TextAppearance_AppCompat_Display1=0x7f0f00d3;
-    public static final int TextAppearance_AppCompat_Display2=0x7f0f00d4;
-    public static final int TextAppearance_AppCompat_Display3=0x7f0f00d5;
-    public static final int TextAppearance_AppCompat_Display4=0x7f0f00d6;
-    public static final int TextAppearance_AppCompat_Headline=0x7f0f00d7;
-    public static final int TextAppearance_AppCompat_Inverse=0x7f0f00d8;
-    public static final int TextAppearance_AppCompat_Large=0x7f0f00d9;
-    public static final int TextAppearance_AppCompat_Large_Inverse=0x7f0f00da;
-    public static final int TextAppearance_AppCompat_Light_SearchResult_Subtitle=0x7f0f00db;
-    public static final int TextAppearance_AppCompat_Light_SearchResult_Title=0x7f0f00dc;
-    public static final int TextAppearance_AppCompat_Light_Widget_PopupMenu_Large=0x7f0f00dd;
-    public static final int TextAppearance_AppCompat_Light_Widget_PopupMenu_Small=0x7f0f00de;
-    public static final int TextAppearance_AppCompat_Medium=0x7f0f00df;
-    public static final int TextAppearance_AppCompat_Medium_Inverse=0x7f0f00e0;
-    public static final int TextAppearance_AppCompat_Menu=0x7f0f00e1;
-    public static final int TextAppearance_AppCompat_Notification=0x7f0f00e2;
-    public static final int TextAppearance_AppCompat_Notification_Info=0x7f0f00e3;
-    public static final int TextAppearance_AppCompat_Notification_Info_Media=0x7f0f00e4;
-    public static final int TextAppearance_AppCompat_Notification_Line2=0x7f0f00e5;
-    public static final int TextAppearance_AppCompat_Notification_Line2_Media=0x7f0f00e6;
-    public static final int TextAppearance_AppCompat_Notification_Media=0x7f0f00e7;
-    public static final int TextAppearance_AppCompat_Notification_Time=0x7f0f00e8;
-    public static final int TextAppearance_AppCompat_Notification_Time_Media=0x7f0f00e9;
-    public static final int TextAppearance_AppCompat_Notification_Title=0x7f0f00ea;
-    public static final int TextAppearance_AppCompat_Notification_Title_Media=0x7f0f00eb;
-    public static final int TextAppearance_AppCompat_SearchResult_Subtitle=0x7f0f00ec;
-    public static final int TextAppearance_AppCompat_SearchResult_Title=0x7f0f00ed;
-    public static final int TextAppearance_AppCompat_Small=0x7f0f00ee;
-    public static final int TextAppearance_AppCompat_Small_Inverse=0x7f0f00ef;
-    public static final int TextAppearance_AppCompat_Subhead=0x7f0f00f0;
-    public static final int TextAppearance_AppCompat_Subhead_Inverse=0x7f0f00f1;
-    public static final int TextAppearance_AppCompat_Title=0x7f0f00f2;
-    public static final int TextAppearance_AppCompat_Title_Inverse=0x7f0f00f3;
-    public static final int TextAppearance_AppCompat_Widget_ActionBar_Menu=0x7f0f00f4;
-    public static final int TextAppearance_AppCompat_Widget_ActionBar_Subtitle=0x7f0f00f5;
-    public static final int TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse=0x7f0f00f6;
-    public static final int TextAppearance_AppCompat_Widget_ActionBar_Title=0x7f0f00f7;
-    public static final int TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse=0x7f0f00f8;
-    public static final int TextAppearance_AppCompat_Widget_ActionMode_Subtitle=0x7f0f00f9;
-    public static final int TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse=0x7f0f00fa;
-    public static final int TextAppearance_AppCompat_Widget_ActionMode_Title=0x7f0f00fb;
-    public static final int TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse=0x7f0f00fc;
-    public static final int TextAppearance_AppCompat_Widget_Button=0x7f0f00fd;
-    public static final int TextAppearance_AppCompat_Widget_Button_Borderless_Colored=0x7f0f00fe;
-    public static final int TextAppearance_AppCompat_Widget_Button_Colored=0x7f0f00ff;
-    public static final int TextAppearance_AppCompat_Widget_Button_Inverse=0x7f0f0100;
-    public static final int TextAppearance_AppCompat_Widget_DropDownItem=0x7f0f0101;
-    public static final int TextAppearance_AppCompat_Widget_PopupMenu_Header=0x7f0f0102;
-    public static final int TextAppearance_AppCompat_Widget_PopupMenu_Large=0x7f0f0103;
-    public static final int TextAppearance_AppCompat_Widget_PopupMenu_Small=0x7f0f0104;
-    public static final int TextAppearance_AppCompat_Widget_Switch=0x7f0f0105;
-    public static final int TextAppearance_AppCompat_Widget_TextView_SpinnerItem=0x7f0f0106;
-    public static final int TextAppearance_Design_CollapsingToolbar_Expanded=0x7f0f0107;
-    public static final int TextAppearance_Design_Counter=0x7f0f0108;
-    public static final int TextAppearance_Design_Counter_Overflow=0x7f0f0109;
-    public static final int TextAppearance_Design_Error=0x7f0f010a;
-    public static final int TextAppearance_Design_Hint=0x7f0f010b;
-    public static final int TextAppearance_Design_Snackbar_Message=0x7f0f010c;
-    public static final int TextAppearance_Design_Tab=0x7f0f010d;
-    public static final int TextAppearance_StatusBar_EventContent=0x7f0f010e;
-    public static final int TextAppearance_StatusBar_EventContent_Info=0x7f0f010f;
-    public static final int TextAppearance_StatusBar_EventContent_Line2=0x7f0f0110;
-    public static final int TextAppearance_StatusBar_EventContent_Time=0x7f0f0111;
-    public static final int TextAppearance_StatusBar_EventContent_Title=0x7f0f0112;
-    public static final int TextAppearance_Widget_AppCompat_ExpandedMenu_Item=0x7f0f0113;
-    public static final int TextAppearance_Widget_AppCompat_Toolbar_Subtitle=0x7f0f0114;
-    public static final int TextAppearance_Widget_AppCompat_Toolbar_Title=0x7f0f0115;
-    public static final int Theme=0x7f0f0116;
-    public static final int Theme_AppCompat=0x7f0f0117;
-    public static final int Theme_AppCompat_CompactMenu=0x7f0f0118;
-    public static final int Theme_AppCompat_DayNight=0x7f0f0119;
-    public static final int Theme_AppCompat_DayNight_DarkActionBar=0x7f0f011a;
-    public static final int Theme_AppCompat_DayNight_Dialog=0x7f0f011b;
-    public static final int Theme_AppCompat_DayNight_Dialog_Alert=0x7f0f011c;
-    public static final int Theme_AppCompat_DayNight_Dialog_MinWidth=0x7f0f011d;
-    public static final int Theme_AppCompat_DayNight_DialogWhenLarge=0x7f0f011e;
-    public static final int Theme_AppCompat_DayNight_NoActionBar=0x7f0f011f;
-    public static final int Theme_AppCompat_Dialog=0x7f0f0120;
-    public static final int Theme_AppCompat_Dialog_Alert=0x7f0f0121;
-    public static final int Theme_AppCompat_Dialog_MinWidth=0x7f0f0122;
-    public static final int Theme_AppCompat_DialogWhenLarge=0x7f0f0123;
-    public static final int Theme_AppCompat_Light=0x7f0f0124;
-    public static final int Theme_AppCompat_Light_DarkActionBar=0x7f0f0125;
-    public static final int Theme_AppCompat_Light_Dialog=0x7f0f0126;
-    public static final int Theme_AppCompat_Light_Dialog_Alert=0x7f0f0127;
-    public static final int Theme_AppCompat_Light_Dialog_MinWidth=0x7f0f0128;
-    public static final int Theme_AppCompat_Light_DialogWhenLarge=0x7f0f0129;
-    public static final int Theme_AppCompat_Light_NoActionBar=0x7f0f012a;
-    public static final int Theme_AppCompat_NoActionBar=0x7f0f012b;
-    public static final int Theme_Catalyst=0x7f0f012c;
-    public static final int Theme_Catalyst_RedBox=0x7f0f012d;
-    public static final int Theme_Design=0x7f0f012e;
-    public static final int Theme_Design_BottomSheetDialog=0x7f0f012f;
-    public static final int Theme_Design_Light=0x7f0f0130;
-    public static final int Theme_Design_Light_BottomSheetDialog=0x7f0f0131;
-    public static final int Theme_Design_Light_NoActionBar=0x7f0f0132;
-    public static final int Theme_Design_NoActionBar=0x7f0f0133;
-    public static final int Theme_FullScreenDialog=0x7f0f0134;
-    public static final int Theme_FullScreenDialogAnimatedFade=0x7f0f0135;
-    public static final int Theme_FullScreenDialogAnimatedSlide=0x7f0f0136;
-    public static final int Theme_ReactNative_AppCompat_Light=0x7f0f0137;
-    public static final int Theme_ReactNative_AppCompat_Light_NoActionBar_FullScreen=0x7f0f0138;
-    public static final int ThemeOverlay_AppCompat=0x7f0f0139;
-    public static final int ThemeOverlay_AppCompat_ActionBar=0x7f0f013a;
-    public static final int ThemeOverlay_AppCompat_Dark=0x7f0f013b;
-    public static final int ThemeOverlay_AppCompat_Dark_ActionBar=0x7f0f013c;
-    public static final int ThemeOverlay_AppCompat_Dialog=0x7f0f013d;
-    public static final int ThemeOverlay_AppCompat_Dialog_Alert=0x7f0f013e;
-    public static final int ThemeOverlay_AppCompat_Light=0x7f0f013f;
-    public static final int Widget_AppCompat_ActionBar=0x7f0f0140;
-    public static final int Widget_AppCompat_ActionBar_Solid=0x7f0f0141;
-    public static final int Widget_AppCompat_ActionBar_TabBar=0x7f0f0142;
-    public static final int Widget_AppCompat_ActionBar_TabText=0x7f0f0143;
-    public static final int Widget_AppCompat_ActionBar_TabView=0x7f0f0144;
-    public static final int Widget_AppCompat_ActionButton=0x7f0f0145;
-    public static final int Widget_AppCompat_ActionButton_CloseMode=0x7f0f0146;
-    public static final int Widget_AppCompat_ActionButton_Overflow=0x7f0f0147;
-    public static final int Widget_AppCompat_ActionMode=0x7f0f0148;
-    public static final int Widget_AppCompat_ActivityChooserView=0x7f0f0149;
-    public static final int Widget_AppCompat_AutoCompleteTextView=0x7f0f014a;
-    public static final int Widget_AppCompat_Button=0x7f0f014b;
-    public static final int Widget_AppCompat_Button_Borderless=0x7f0f014c;
-    public static final int Widget_AppCompat_Button_Borderless_Colored=0x7f0f014d;
-    public static final int Widget_AppCompat_Button_ButtonBar_AlertDialog=0x7f0f014e;
-    public static final int Widget_AppCompat_Button_Colored=0x7f0f014f;
-    public static final int Widget_AppCompat_Button_Small=0x7f0f0150;
-    public static final int Widget_AppCompat_ButtonBar=0x7f0f0151;
-    public static final int Widget_AppCompat_ButtonBar_AlertDialog=0x7f0f0152;
-    public static final int Widget_AppCompat_CompoundButton_CheckBox=0x7f0f0153;
-    public static final int Widget_AppCompat_CompoundButton_RadioButton=0x7f0f0154;
-    public static final int Widget_AppCompat_CompoundButton_Switch=0x7f0f0155;
-    public static final int Widget_AppCompat_DrawerArrowToggle=0x7f0f0156;
-    public static final int Widget_AppCompat_DropDownItem_Spinner=0x7f0f0157;
-    public static final int Widget_AppCompat_EditText=0x7f0f0158;
-    public static final int Widget_AppCompat_ImageButton=0x7f0f0159;
-    public static final int Widget_AppCompat_Light_ActionBar=0x7f0f015a;
-    public static final int Widget_AppCompat_Light_ActionBar_Solid=0x7f0f015b;
-    public static final int Widget_AppCompat_Light_ActionBar_Solid_Inverse=0x7f0f015c;
-    public static final int Widget_AppCompat_Light_ActionBar_TabBar=0x7f0f015d;
-    public static final int Widget_AppCompat_Light_ActionBar_TabBar_Inverse=0x7f0f015e;
-    public static final int Widget_AppCompat_Light_ActionBar_TabText=0x7f0f015f;
-    public static final int Widget_AppCompat_Light_ActionBar_TabText_Inverse=0x7f0f0160;
-    public static final int Widget_AppCompat_Light_ActionBar_TabView=0x7f0f0161;
-    public static final int Widget_AppCompat_Light_ActionBar_TabView_Inverse=0x7f0f0162;
-    public static final int Widget_AppCompat_Light_ActionButton=0x7f0f0163;
-    public static final int Widget_AppCompat_Light_ActionButton_CloseMode=0x7f0f0164;
-    public static final int Widget_AppCompat_Light_ActionButton_Overflow=0x7f0f0165;
-    public static final int Widget_AppCompat_Light_ActionMode_Inverse=0x7f0f0166;
-    public static final int Widget_AppCompat_Light_ActivityChooserView=0x7f0f0167;
-    public static final int Widget_AppCompat_Light_AutoCompleteTextView=0x7f0f0168;
-    public static final int Widget_AppCompat_Light_DropDownItem_Spinner=0x7f0f0169;
-    public static final int Widget_AppCompat_Light_ListPopupWindow=0x7f0f016a;
-    public static final int Widget_AppCompat_Light_ListView_DropDown=0x7f0f016b;
-    public static final int Widget_AppCompat_Light_PopupMenu=0x7f0f016c;
-    public static final int Widget_AppCompat_Light_PopupMenu_Overflow=0x7f0f016d;
-    public static final int Widget_AppCompat_Light_SearchView=0x7f0f016e;
-    public static final int Widget_AppCompat_Light_Spinner_DropDown_ActionBar=0x7f0f016f;
-    public static final int Widget_AppCompat_ListMenuView=0x7f0f0170;
-    public static final int Widget_AppCompat_ListPopupWindow=0x7f0f0171;
-    public static final int Widget_AppCompat_ListView=0x7f0f0172;
-    public static final int Widget_AppCompat_ListView_DropDown=0x7f0f0173;
-    public static final int Widget_AppCompat_ListView_Menu=0x7f0f0174;
-    public static final int Widget_AppCompat_NotificationActionContainer=0x7f0f0175;
-    public static final int Widget_AppCompat_NotificationActionText=0x7f0f0176;
-    public static final int Widget_AppCompat_PopupMenu=0x7f0f0177;
-    public static final int Widget_AppCompat_PopupMenu_Overflow=0x7f0f0178;
-    public static final int Widget_AppCompat_PopupWindow=0x7f0f0179;
-    public static final int Widget_AppCompat_ProgressBar=0x7f0f017a;
-    public static final int Widget_AppCompat_ProgressBar_Horizontal=0x7f0f017b;
-    public static final int Widget_AppCompat_RatingBar=0x7f0f017c;
-    public static final int Widget_AppCompat_RatingBar_Indicator=0x7f0f017d;
-    public static final int Widget_AppCompat_RatingBar_Small=0x7f0f017e;
-    public static final int Widget_AppCompat_SearchView=0x7f0f017f;
-    public static final int Widget_AppCompat_SearchView_ActionBar=0x7f0f0180;
-    public static final int Widget_AppCompat_SeekBar=0x7f0f0181;
-    public static final int Widget_AppCompat_SeekBar_Discrete=0x7f0f0182;
-    public static final int Widget_AppCompat_Spinner=0x7f0f0183;
-    public static final int Widget_AppCompat_Spinner_DropDown=0x7f0f0184;
-    public static final int Widget_AppCompat_Spinner_DropDown_ActionBar=0x7f0f0185;
-    public static final int Widget_AppCompat_Spinner_Underlined=0x7f0f0186;
-    public static final int Widget_AppCompat_TextView_SpinnerItem=0x7f0f0187;
-    public static final int Widget_AppCompat_Toolbar=0x7f0f0188;
-    public static final int Widget_AppCompat_Toolbar_Button_Navigation=0x7f0f0189;
-    public static final int Widget_Design_AppBarLayout=0x7f0f018a;
-    public static final int Widget_Design_BottomNavigationView=0x7f0f018b;
-    public static final int Widget_Design_BottomSheet_Modal=0x7f0f018c;
-    public static final int Widget_Design_CollapsingToolbar=0x7f0f018d;
-    public static final int Widget_Design_CoordinatorLayout=0x7f0f018e;
-    public static final int Widget_Design_FloatingActionButton=0x7f0f018f;
-    public static final int Widget_Design_NavigationView=0x7f0f0190;
-    public static final int Widget_Design_ScrimInsetsFrameLayout=0x7f0f0191;
-    public static final int Widget_Design_Snackbar=0x7f0f0192;
-    public static final int Widget_Design_TabLayout=0x7f0f0193;
-    public static final int Widget_Design_TextInputLayout=0x7f0f0194;
-    public static final int amu_Bubble_TextAppearance_Dark=0x7f0f0195;
-    public static final int amu_Bubble_TextAppearance_Light=0x7f0f0196;
-    public static final int amu_ClusterIcon_TextAppearance=0x7f0f0197;
-    public static final int redboxButton=0x7f0f0198;
+    public static final int DefaultExplainingPermissionsTheme=0x7f0f00a5;
+    public static final int DialogAnimationFade=0x7f0f00a6;
+    public static final int DialogAnimationSlide=0x7f0f00a7;
+    public static final int LightBox=0x7f0f00a8;
+    public static final int Modal=0x7f0f00a9;
+    public static final int ModalDefaultAnimations=0x7f0f00aa;
+    public static final int ModalFadeAnimation=0x7f0f00ab;
+    public static final int ModalNoAnimation=0x7f0f00ac;
+    public static final int ModalScreenAnimations=0x7f0f00ad;
+    public static final int ModalSlideHorizontal=0x7f0f00ae;
+    public static final int Platform_AppCompat=0x7f0f00af;
+    public static final int Platform_AppCompat_Light=0x7f0f00b0;
+    public static final int Platform_ThemeOverlay_AppCompat=0x7f0f00b1;
+    public static final int Platform_ThemeOverlay_AppCompat_Dark=0x7f0f00b2;
+    public static final int Platform_ThemeOverlay_AppCompat_Light=0x7f0f00b3;
+    public static final int Platform_V11_AppCompat=0x7f0f00b4;
+    public static final int Platform_V11_AppCompat_Light=0x7f0f00b5;
+    public static final int Platform_V14_AppCompat=0x7f0f00b6;
+    public static final int Platform_V14_AppCompat_Light=0x7f0f00b7;
+    public static final int Platform_V21_AppCompat=0x7f0f00b8;
+    public static final int Platform_V21_AppCompat_Light=0x7f0f00b9;
+    public static final int Platform_V25_AppCompat=0x7f0f00ba;
+    public static final int Platform_V25_AppCompat_Light=0x7f0f00bb;
+    public static final int Platform_Widget_AppCompat_Spinner=0x7f0f00bc;
+    public static final int RtlOverlay_DialogWindowTitle_AppCompat=0x7f0f00bd;
+    public static final int RtlOverlay_Widget_AppCompat_ActionBar_TitleItem=0x7f0f00be;
+    public static final int RtlOverlay_Widget_AppCompat_DialogTitle_Icon=0x7f0f00bf;
+    public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem=0x7f0f00c0;
+    public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup=0x7f0f00c1;
+    public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem_Text=0x7f0f00c2;
+    public static final int RtlOverlay_Widget_AppCompat_SearchView_MagIcon=0x7f0f00c8;
+    public static final int RtlOverlay_Widget_AppCompat_Search_DropDown=0x7f0f00c3;
+    public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1=0x7f0f00c4;
+    public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2=0x7f0f00c5;
+    public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Query=0x7f0f00c6;
+    public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Text=0x7f0f00c7;
+    public static final int RtlUnderlay_Widget_AppCompat_ActionButton=0x7f0f00c9;
+    public static final int RtlUnderlay_Widget_AppCompat_ActionButton_Overflow=0x7f0f00ca;
+    public static final int SpinnerDatePickerDialog=0x7f0f00cb;
+    public static final int SpinnerDatePickerStyle=0x7f0f00cc;
+    public static final int SpinnerTimePickerDialog=0x7f0f00cd;
+    public static final int SpinnerTimePickerStyle=0x7f0f00ce;
+    public static final int TextAppearance_AppCompat=0x7f0f00cf;
+    public static final int TextAppearance_AppCompat_Body1=0x7f0f00d0;
+    public static final int TextAppearance_AppCompat_Body2=0x7f0f00d1;
+    public static final int TextAppearance_AppCompat_Button=0x7f0f00d2;
+    public static final int TextAppearance_AppCompat_Caption=0x7f0f00d3;
+    public static final int TextAppearance_AppCompat_Display1=0x7f0f00d4;
+    public static final int TextAppearance_AppCompat_Display2=0x7f0f00d5;
+    public static final int TextAppearance_AppCompat_Display3=0x7f0f00d6;
+    public static final int TextAppearance_AppCompat_Display4=0x7f0f00d7;
+    public static final int TextAppearance_AppCompat_Headline=0x7f0f00d8;
+    public static final int TextAppearance_AppCompat_Inverse=0x7f0f00d9;
+    public static final int TextAppearance_AppCompat_Large=0x7f0f00da;
+    public static final int TextAppearance_AppCompat_Large_Inverse=0x7f0f00db;
+    public static final int TextAppearance_AppCompat_Light_SearchResult_Subtitle=0x7f0f00dc;
+    public static final int TextAppearance_AppCompat_Light_SearchResult_Title=0x7f0f00dd;
+    public static final int TextAppearance_AppCompat_Light_Widget_PopupMenu_Large=0x7f0f00de;
+    public static final int TextAppearance_AppCompat_Light_Widget_PopupMenu_Small=0x7f0f00df;
+    public static final int TextAppearance_AppCompat_Medium=0x7f0f00e0;
+    public static final int TextAppearance_AppCompat_Medium_Inverse=0x7f0f00e1;
+    public static final int TextAppearance_AppCompat_Menu=0x7f0f00e2;
+    public static final int TextAppearance_AppCompat_Notification=0x7f0f00e3;
+    public static final int TextAppearance_AppCompat_Notification_Info=0x7f0f00e4;
+    public static final int TextAppearance_AppCompat_Notification_Info_Media=0x7f0f00e5;
+    public static final int TextAppearance_AppCompat_Notification_Line2=0x7f0f00e6;
+    public static final int TextAppearance_AppCompat_Notification_Line2_Media=0x7f0f00e7;
+    public static final int TextAppearance_AppCompat_Notification_Media=0x7f0f00e8;
+    public static final int TextAppearance_AppCompat_Notification_Time=0x7f0f00e9;
+    public static final int TextAppearance_AppCompat_Notification_Time_Media=0x7f0f00ea;
+    public static final int TextAppearance_AppCompat_Notification_Title=0x7f0f00eb;
+    public static final int TextAppearance_AppCompat_Notification_Title_Media=0x7f0f00ec;
+    public static final int TextAppearance_AppCompat_SearchResult_Subtitle=0x7f0f00ed;
+    public static final int TextAppearance_AppCompat_SearchResult_Title=0x7f0f00ee;
+    public static final int TextAppearance_AppCompat_Small=0x7f0f00ef;
+    public static final int TextAppearance_AppCompat_Small_Inverse=0x7f0f00f0;
+    public static final int TextAppearance_AppCompat_Subhead=0x7f0f00f1;
+    public static final int TextAppearance_AppCompat_Subhead_Inverse=0x7f0f00f2;
+    public static final int TextAppearance_AppCompat_Title=0x7f0f00f3;
+    public static final int TextAppearance_AppCompat_Title_Inverse=0x7f0f00f4;
+    public static final int TextAppearance_AppCompat_Widget_ActionBar_Menu=0x7f0f00f5;
+    public static final int TextAppearance_AppCompat_Widget_ActionBar_Subtitle=0x7f0f00f6;
+    public static final int TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse=0x7f0f00f7;
+    public static final int TextAppearance_AppCompat_Widget_ActionBar_Title=0x7f0f00f8;
+    public static final int TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse=0x7f0f00f9;
+    public static final int TextAppearance_AppCompat_Widget_ActionMode_Subtitle=0x7f0f00fa;
+    public static final int TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse=0x7f0f00fb;
+    public static final int TextAppearance_AppCompat_Widget_ActionMode_Title=0x7f0f00fc;
+    public static final int TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse=0x7f0f00fd;
+    public static final int TextAppearance_AppCompat_Widget_Button=0x7f0f00fe;
+    public static final int TextAppearance_AppCompat_Widget_Button_Borderless_Colored=0x7f0f00ff;
+    public static final int TextAppearance_AppCompat_Widget_Button_Colored=0x7f0f0100;
+    public static final int TextAppearance_AppCompat_Widget_Button_Inverse=0x7f0f0101;
+    public static final int TextAppearance_AppCompat_Widget_DropDownItem=0x7f0f0102;
+    public static final int TextAppearance_AppCompat_Widget_PopupMenu_Header=0x7f0f0103;
+    public static final int TextAppearance_AppCompat_Widget_PopupMenu_Large=0x7f0f0104;
+    public static final int TextAppearance_AppCompat_Widget_PopupMenu_Small=0x7f0f0105;
+    public static final int TextAppearance_AppCompat_Widget_Switch=0x7f0f0106;
+    public static final int TextAppearance_AppCompat_Widget_TextView_SpinnerItem=0x7f0f0107;
+    public static final int TextAppearance_Design_CollapsingToolbar_Expanded=0x7f0f0108;
+    public static final int TextAppearance_Design_Counter=0x7f0f0109;
+    public static final int TextAppearance_Design_Counter_Overflow=0x7f0f010a;
+    public static final int TextAppearance_Design_Error=0x7f0f010b;
+    public static final int TextAppearance_Design_Hint=0x7f0f010c;
+    public static final int TextAppearance_Design_Snackbar_Message=0x7f0f010d;
+    public static final int TextAppearance_Design_Tab=0x7f0f010e;
+    public static final int TextAppearance_StatusBar_EventContent=0x7f0f010f;
+    public static final int TextAppearance_StatusBar_EventContent_Info=0x7f0f0110;
+    public static final int TextAppearance_StatusBar_EventContent_Line2=0x7f0f0111;
+    public static final int TextAppearance_StatusBar_EventContent_Time=0x7f0f0112;
+    public static final int TextAppearance_StatusBar_EventContent_Title=0x7f0f0113;
+    public static final int TextAppearance_Widget_AppCompat_ExpandedMenu_Item=0x7f0f0114;
+    public static final int TextAppearance_Widget_AppCompat_Toolbar_Subtitle=0x7f0f0115;
+    public static final int TextAppearance_Widget_AppCompat_Toolbar_Title=0x7f0f0116;
+    public static final int Theme=0x7f0f0117;
+    public static final int ThemeOverlay_AppCompat=0x7f0f013a;
+    public static final int ThemeOverlay_AppCompat_ActionBar=0x7f0f013b;
+    public static final int ThemeOverlay_AppCompat_Dark=0x7f0f013c;
+    public static final int ThemeOverlay_AppCompat_Dark_ActionBar=0x7f0f013d;
+    public static final int ThemeOverlay_AppCompat_Dialog=0x7f0f013e;
+    public static final int ThemeOverlay_AppCompat_Dialog_Alert=0x7f0f013f;
+    public static final int ThemeOverlay_AppCompat_Light=0x7f0f0140;
+    public static final int Theme_AppCompat=0x7f0f0118;
+    public static final int Theme_AppCompat_CompactMenu=0x7f0f0119;
+    public static final int Theme_AppCompat_DayNight=0x7f0f011a;
+    public static final int Theme_AppCompat_DayNight_DarkActionBar=0x7f0f011b;
+    public static final int Theme_AppCompat_DayNight_Dialog=0x7f0f011c;
+    public static final int Theme_AppCompat_DayNight_DialogWhenLarge=0x7f0f011f;
+    public static final int Theme_AppCompat_DayNight_Dialog_Alert=0x7f0f011d;
+    public static final int Theme_AppCompat_DayNight_Dialog_MinWidth=0x7f0f011e;
+    public static final int Theme_AppCompat_DayNight_NoActionBar=0x7f0f0120;
+    public static final int Theme_AppCompat_Dialog=0x7f0f0121;
+    public static final int Theme_AppCompat_DialogWhenLarge=0x7f0f0124;
+    public static final int Theme_AppCompat_Dialog_Alert=0x7f0f0122;
+    public static final int Theme_AppCompat_Dialog_MinWidth=0x7f0f0123;
+    public static final int Theme_AppCompat_Light=0x7f0f0125;
+    public static final int Theme_AppCompat_Light_DarkActionBar=0x7f0f0126;
+    public static final int Theme_AppCompat_Light_Dialog=0x7f0f0127;
+    public static final int Theme_AppCompat_Light_DialogWhenLarge=0x7f0f012a;
+    public static final int Theme_AppCompat_Light_Dialog_Alert=0x7f0f0128;
+    public static final int Theme_AppCompat_Light_Dialog_MinWidth=0x7f0f0129;
+    public static final int Theme_AppCompat_Light_NoActionBar=0x7f0f012b;
+    public static final int Theme_AppCompat_NoActionBar=0x7f0f012c;
+    public static final int Theme_Catalyst=0x7f0f012d;
+    public static final int Theme_Catalyst_RedBox=0x7f0f012e;
+    public static final int Theme_Design=0x7f0f012f;
+    public static final int Theme_Design_BottomSheetDialog=0x7f0f0130;
+    public static final int Theme_Design_Light=0x7f0f0131;
+    public static final int Theme_Design_Light_BottomSheetDialog=0x7f0f0132;
+    public static final int Theme_Design_Light_NoActionBar=0x7f0f0133;
+    public static final int Theme_Design_NoActionBar=0x7f0f0134;
+    public static final int Theme_FullScreenDialog=0x7f0f0135;
+    public static final int Theme_FullScreenDialogAnimatedFade=0x7f0f0136;
+    public static final int Theme_FullScreenDialogAnimatedSlide=0x7f0f0137;
+    public static final int Theme_ReactNative_AppCompat_Light=0x7f0f0138;
+    public static final int Theme_ReactNative_AppCompat_Light_NoActionBar_FullScreen=0x7f0f0139;
+    public static final int Widget_AppCompat_ActionBar=0x7f0f0141;
+    public static final int Widget_AppCompat_ActionBar_Solid=0x7f0f0142;
+    public static final int Widget_AppCompat_ActionBar_TabBar=0x7f0f0143;
+    public static final int Widget_AppCompat_ActionBar_TabText=0x7f0f0144;
+    public static final int Widget_AppCompat_ActionBar_TabView=0x7f0f0145;
+    public static final int Widget_AppCompat_ActionButton=0x7f0f0146;
+    public static final int Widget_AppCompat_ActionButton_CloseMode=0x7f0f0147;
+    public static final int Widget_AppCompat_ActionButton_Overflow=0x7f0f0148;
+    public static final int Widget_AppCompat_ActionMode=0x7f0f0149;
+    public static final int Widget_AppCompat_ActivityChooserView=0x7f0f014a;
+    public static final int Widget_AppCompat_AutoCompleteTextView=0x7f0f014b;
+    public static final int Widget_AppCompat_Button=0x7f0f014c;
+    public static final int Widget_AppCompat_ButtonBar=0x7f0f0152;
+    public static final int Widget_AppCompat_ButtonBar_AlertDialog=0x7f0f0153;
+    public static final int Widget_AppCompat_Button_Borderless=0x7f0f014d;
+    public static final int Widget_AppCompat_Button_Borderless_Colored=0x7f0f014e;
+    public static final int Widget_AppCompat_Button_ButtonBar_AlertDialog=0x7f0f014f;
+    public static final int Widget_AppCompat_Button_Colored=0x7f0f0150;
+    public static final int Widget_AppCompat_Button_Small=0x7f0f0151;
+    public static final int Widget_AppCompat_CompoundButton_CheckBox=0x7f0f0154;
+    public static final int Widget_AppCompat_CompoundButton_RadioButton=0x7f0f0155;
+    public static final int Widget_AppCompat_CompoundButton_Switch=0x7f0f0156;
+    public static final int Widget_AppCompat_DrawerArrowToggle=0x7f0f0157;
+    public static final int Widget_AppCompat_DropDownItem_Spinner=0x7f0f0158;
+    public static final int Widget_AppCompat_EditText=0x7f0f0159;
+    public static final int Widget_AppCompat_ImageButton=0x7f0f015a;
+    public static final int Widget_AppCompat_Light_ActionBar=0x7f0f015b;
+    public static final int Widget_AppCompat_Light_ActionBar_Solid=0x7f0f015c;
+    public static final int Widget_AppCompat_Light_ActionBar_Solid_Inverse=0x7f0f015d;
+    public static final int Widget_AppCompat_Light_ActionBar_TabBar=0x7f0f015e;
+    public static final int Widget_AppCompat_Light_ActionBar_TabBar_Inverse=0x7f0f015f;
+    public static final int Widget_AppCompat_Light_ActionBar_TabText=0x7f0f0160;
+    public static final int Widget_AppCompat_Light_ActionBar_TabText_Inverse=0x7f0f0161;
+    public static final int Widget_AppCompat_Light_ActionBar_TabView=0x7f0f0162;
+    public static final int Widget_AppCompat_Light_ActionBar_TabView_Inverse=0x7f0f0163;
+    public static final int Widget_AppCompat_Light_ActionButton=0x7f0f0164;
+    public static final int Widget_AppCompat_Light_ActionButton_CloseMode=0x7f0f0165;
+    public static final int Widget_AppCompat_Light_ActionButton_Overflow=0x7f0f0166;
+    public static final int Widget_AppCompat_Light_ActionMode_Inverse=0x7f0f0167;
+    public static final int Widget_AppCompat_Light_ActivityChooserView=0x7f0f0168;
+    public static final int Widget_AppCompat_Light_AutoCompleteTextView=0x7f0f0169;
+    public static final int Widget_AppCompat_Light_DropDownItem_Spinner=0x7f0f016a;
+    public static final int Widget_AppCompat_Light_ListPopupWindow=0x7f0f016b;
+    public static final int Widget_AppCompat_Light_ListView_DropDown=0x7f0f016c;
+    public static final int Widget_AppCompat_Light_PopupMenu=0x7f0f016d;
+    public static final int Widget_AppCompat_Light_PopupMenu_Overflow=0x7f0f016e;
+    public static final int Widget_AppCompat_Light_SearchView=0x7f0f016f;
+    public static final int Widget_AppCompat_Light_Spinner_DropDown_ActionBar=0x7f0f0170;
+    public static final int Widget_AppCompat_ListMenuView=0x7f0f0171;
+    public static final int Widget_AppCompat_ListPopupWindow=0x7f0f0172;
+    public static final int Widget_AppCompat_ListView=0x7f0f0173;
+    public static final int Widget_AppCompat_ListView_DropDown=0x7f0f0174;
+    public static final int Widget_AppCompat_ListView_Menu=0x7f0f0175;
+    public static final int Widget_AppCompat_NotificationActionContainer=0x7f0f0176;
+    public static final int Widget_AppCompat_NotificationActionText=0x7f0f0177;
+    public static final int Widget_AppCompat_PopupMenu=0x7f0f0178;
+    public static final int Widget_AppCompat_PopupMenu_Overflow=0x7f0f0179;
+    public static final int Widget_AppCompat_PopupWindow=0x7f0f017a;
+    public static final int Widget_AppCompat_ProgressBar=0x7f0f017b;
+    public static final int Widget_AppCompat_ProgressBar_Horizontal=0x7f0f017c;
+    public static final int Widget_AppCompat_RatingBar=0x7f0f017d;
+    public static final int Widget_AppCompat_RatingBar_Indicator=0x7f0f017e;
+    public static final int Widget_AppCompat_RatingBar_Small=0x7f0f017f;
+    public static final int Widget_AppCompat_SearchView=0x7f0f0180;
+    public static final int Widget_AppCompat_SearchView_ActionBar=0x7f0f0181;
+    public static final int Widget_AppCompat_SeekBar=0x7f0f0182;
+    public static final int Widget_AppCompat_SeekBar_Discrete=0x7f0f0183;
+    public static final int Widget_AppCompat_Spinner=0x7f0f0184;
+    public static final int Widget_AppCompat_Spinner_DropDown=0x7f0f0185;
+    public static final int Widget_AppCompat_Spinner_DropDown_ActionBar=0x7f0f0186;
+    public static final int Widget_AppCompat_Spinner_Underlined=0x7f0f0187;
+    public static final int Widget_AppCompat_TextView_SpinnerItem=0x7f0f0188;
+    public static final int Widget_AppCompat_Toolbar=0x7f0f0189;
+    public static final int Widget_AppCompat_Toolbar_Button_Navigation=0x7f0f018a;
+    public static final int Widget_Design_AppBarLayout=0x7f0f018b;
+    public static final int Widget_Design_BottomNavigationView=0x7f0f018c;
+    public static final int Widget_Design_BottomSheet_Modal=0x7f0f018d;
+    public static final int Widget_Design_CollapsingToolbar=0x7f0f018e;
+    public static final int Widget_Design_CoordinatorLayout=0x7f0f018f;
+    public static final int Widget_Design_FloatingActionButton=0x7f0f0190;
+    public static final int Widget_Design_NavigationView=0x7f0f0191;
+    public static final int Widget_Design_ScrimInsetsFrameLayout=0x7f0f0192;
+    public static final int Widget_Design_Snackbar=0x7f0f0193;
+    public static final int Widget_Design_TabLayout=0x7f0f0194;
+    public static final int Widget_Design_TextInputLayout=0x7f0f0195;
+    public static final int amu_Bubble_TextAppearance_Dark=0x7f0f0196;
+    public static final int amu_Bubble_TextAppearance_Light=0x7f0f0197;
+    public static final int amu_ClusterIcon_TextAppearance=0x7f0f0198;
+    public static final int redboxButton=0x7f0f0199;
   }
   public static final class styleable {
     /**
@@ -4237,6 +4239,49 @@ public final class R {
         0x7f0300f4, 0x7f030126, 0x7f030129, 0x7f030153, 
         0x7f03015d
       };
+    /**
+     * Attributes that can be used with a ActionBarLayout.
+     * <p>Includes the following attributes:</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Attribute</th><th>Description</th></tr>
+     * <tr><td><code>{@link #ActionBarLayout_android_layout_gravity android:layout_gravity}</code></td><td></td></tr>
+     * </table>
+     * @see #ActionBarLayout_android_layout_gravity
+     */
+    public static final int[] ActionBarLayout={
+        0x010100b3
+      };
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#layout_gravity}
+     * attribute's value can be found in the {@link #ActionBarLayout} array.
+     *
+     * <p>Must be one or more (separated by '|') of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>end</td><td>800005</td><td></td></tr>
+     * <tr><td>start</td><td>800003</td><td></td></tr>
+     * <tr><td>bottom</td><td>50</td><td></td></tr>
+     * <tr><td>center</td><td>11</td><td></td></tr>
+     * <tr><td>center_horizontal</td><td>1</td><td></td></tr>
+     * <tr><td>center_vertical</td><td>10</td><td></td></tr>
+     * <tr><td>clip_horizontal</td><td>8</td><td></td></tr>
+     * <tr><td>clip_vertical</td><td>80</td><td></td></tr>
+     * <tr><td>fill</td><td>77</td><td></td></tr>
+     * <tr><td>fill_horizontal</td><td>7</td><td></td></tr>
+     * <tr><td>fill_vertical</td><td>70</td><td></td></tr>
+     * <tr><td>left</td><td>3</td><td></td></tr>
+     * <tr><td>right</td><td>5</td><td></td></tr>
+     * <tr><td>top</td><td>30</td><td></td></tr>
+     * </table>
+     *
+     * @attr name android:layout_gravity
+     */
+    public static final int ActionBarLayout_android_layout_gravity=0;
     /**
      * <p>This symbol is the offset where the {@link com.boulderer.R.attr#background}
      * attribute's value can be found in the {@link #ActionBar} array.
@@ -4612,49 +4657,6 @@ public final class R {
      */
     public static final int ActionBar_titleTextStyle=28;
     /**
-     * Attributes that can be used with a ActionBarLayout.
-     * <p>Includes the following attributes:</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ActionBarLayout_android_layout_gravity android:layout_gravity}</code></td><td></td></tr>
-     * </table>
-     * @see #ActionBarLayout_android_layout_gravity
-     */
-    public static final int[] ActionBarLayout={
-        0x010100b3
-      };
-    /**
-     * <p>This symbol is the offset where the {@link android.R.attr#layout_gravity}
-     * attribute's value can be found in the {@link #ActionBarLayout} array.
-     *
-     * <p>Must be one or more (separated by '|') of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>end</td><td>800005</td><td></td></tr>
-     * <tr><td>start</td><td>800003</td><td></td></tr>
-     * <tr><td>bottom</td><td>50</td><td></td></tr>
-     * <tr><td>center</td><td>11</td><td></td></tr>
-     * <tr><td>center_horizontal</td><td>1</td><td></td></tr>
-     * <tr><td>center_vertical</td><td>10</td><td></td></tr>
-     * <tr><td>clip_horizontal</td><td>8</td><td></td></tr>
-     * <tr><td>clip_vertical</td><td>80</td><td></td></tr>
-     * <tr><td>fill</td><td>77</td><td></td></tr>
-     * <tr><td>fill_horizontal</td><td>7</td><td></td></tr>
-     * <tr><td>fill_vertical</td><td>70</td><td></td></tr>
-     * <tr><td>left</td><td>3</td><td></td></tr>
-     * <tr><td>right</td><td>5</td><td></td></tr>
-     * <tr><td>top</td><td>30</td><td></td></tr>
-     * </table>
-     *
-     * @attr name android:layout_gravity
-     */
-    public static final int ActionBarLayout_android_layout_gravity=0;
-    /**
      * Attributes that can be used with a ActionMenuItemView.
      * <p>Includes the following attributes:</p>
      * <table>
@@ -4950,44 +4952,6 @@ public final class R {
         0x010100d4, 0x7f030083, 0x7f030087
       };
     /**
-     * <p>This symbol is the offset where the {@link android.R.attr#background}
-     * attribute's value can be found in the {@link #AppBarLayout} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
-     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
-     * "<code>#<i>aarrggbb</i></code>".
-     *
-     * @attr name android:background
-     */
-    public static final int AppBarLayout_android_background=0;
-    /**
-     * <p>This symbol is the offset where the {@link com.boulderer.R.attr#elevation}
-     * attribute's value can be found in the {@link #AppBarLayout} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name com.boulderer:elevation
-     */
-    public static final int AppBarLayout_elevation=1;
-    /**
-     * <p>This symbol is the offset where the {@link com.boulderer.R.attr#expanded}
-     * attribute's value can be found in the {@link #AppBarLayout} array.
-     *
-     * <p>May be a boolean value, such as "<code>true</code>" or
-     * "<code>false</code>".
-     *
-     * @attr name com.boulderer:expanded
-     */
-    public static final int AppBarLayout_expanded=2;
-    /**
      * Attributes that can be used with a AppBarLayoutStates.
      * <p>Includes the following attributes:</p>
      * <table>
@@ -5071,6 +5035,44 @@ public final class R {
      * @attr name com.boulderer:layout_scrollInterpolator
      */
     public static final int AppBarLayout_Layout_layout_scrollInterpolator=1;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#background}
+     * attribute's value can be found in the {@link #AppBarLayout} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     *
+     * @attr name android:background
+     */
+    public static final int AppBarLayout_android_background=0;
+    /**
+     * <p>This symbol is the offset where the {@link com.boulderer.R.attr#elevation}
+     * attribute's value can be found in the {@link #AppBarLayout} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.boulderer:elevation
+     */
+    public static final int AppBarLayout_elevation=1;
+    /**
+     * <p>This symbol is the offset where the {@link com.boulderer.R.attr#expanded}
+     * attribute's value can be found in the {@link #AppBarLayout} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name com.boulderer:expanded
+     */
+    public static final int AppBarLayout_expanded=2;
     /**
      * Attributes that can be used with a AppCompatImageView.
      * <p>Includes the following attributes:</p>
@@ -5218,33 +5220,6 @@ public final class R {
         0x01010170, 0x01010392, 0x01010393
       };
     /**
-     * <p>This symbol is the offset where the {@link android.R.attr#textAppearance}
-     * attribute's value can be found in the {@link #AppCompatTextHelper} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name android:textAppearance
-     */
-    public static final int AppCompatTextHelper_android_textAppearance=0;
-    /**
-     * <p>This symbol is the offset where the {@link android.R.attr#drawableTop}
-     * attribute's value can be found in the {@link #AppCompatTextHelper} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
-     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
-     * "<code>#<i>aarrggbb</i></code>".
-     *
-     * @attr name android:drawableTop
-     */
-    public static final int AppCompatTextHelper_android_drawableTop=1;
-    /**
      * <p>This symbol is the offset where the {@link android.R.attr#drawableBottom}
      * attribute's value can be found in the {@link #AppCompatTextHelper} array.
      *
@@ -5259,6 +5234,21 @@ public final class R {
      * @attr name android:drawableBottom
      */
     public static final int AppCompatTextHelper_android_drawableBottom=2;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#drawableEnd}
+     * attribute's value can be found in the {@link #AppCompatTextHelper} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     *
+     * @attr name android:drawableEnd
+     */
+    public static final int AppCompatTextHelper_android_drawableEnd=6;
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#drawableLeft}
      * attribute's value can be found in the {@link #AppCompatTextHelper} array.
@@ -5305,7 +5295,7 @@ public final class R {
      */
     public static final int AppCompatTextHelper_android_drawableStart=5;
     /**
-     * <p>This symbol is the offset where the {@link android.R.attr#drawableEnd}
+     * <p>This symbol is the offset where the {@link android.R.attr#drawableTop}
      * attribute's value can be found in the {@link #AppCompatTextHelper} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5316,9 +5306,21 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name android:drawableEnd
+     * @attr name android:drawableTop
      */
-    public static final int AppCompatTextHelper_android_drawableEnd=6;
+    public static final int AppCompatTextHelper_android_drawableTop=1;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#textAppearance}
+     * attribute's value can be found in the {@link #AppCompatTextHelper} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name android:textAppearance
+     */
+    public static final int AppCompatTextHelper_android_textAppearance=0;
     /**
      * Attributes that can be used with a AppCompatTextView.
      * <p>Includes the following attributes:</p>
@@ -5631,28 +5633,6 @@ public final class R {
         0x7f030173, 0x7f030174, 0x7f030175, 0x7f030176, 
         0x7f030177, 0x7f030178, 0x7f030179
       };
-    /**
-     * <p>This symbol is the offset where the {@link android.R.attr#windowIsFloating}
-     * attribute's value can be found in the {@link #AppCompatTheme} array.
-     *
-     * <p>May be a boolean value, such as "<code>true</code>" or
-     * "<code>false</code>".
-     *
-     * @attr name android:windowIsFloating
-     */
-    public static final int AppCompatTheme_android_windowIsFloating=0;
-    /**
-     * <p>This symbol is the offset where the {@link android.R.attr#windowAnimationStyle}
-     * attribute's value can be found in the {@link #AppCompatTheme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name android:windowAnimationStyle
-     */
-    public static final int AppCompatTheme_android_windowAnimationStyle=1;
     /**
      * <p>This symbol is the offset where the {@link com.boulderer.R.attr#actionBarDivider}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
@@ -6083,6 +6063,28 @@ public final class R {
      * @attr name com.boulderer:alertDialogTheme
      */
     public static final int AppCompatTheme_alertDialogTheme=36;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#windowAnimationStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name android:windowAnimationStyle
+     */
+    public static final int AppCompatTheme_android_windowAnimationStyle=1;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#windowIsFloating}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name android:windowIsFloating
+     */
+    public static final int AppCompatTheme_android_windowIsFloating=0;
     /**
      * <p>This symbol is the offset where the {@link com.boulderer.R.attr#autoCompleteTextViewStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
@@ -7262,6 +7264,49 @@ public final class R {
         0x7f030123, 0x7f030153, 0x7f030154, 0x7f03015e
       };
     /**
+     * Attributes that can be used with a CollapsingToolbarLayout_Layout.
+     * <p>Includes the following attributes:</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Attribute</th><th>Description</th></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_Layout_layout_collapseMode com.boulderer:layout_collapseMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier com.boulderer:layout_collapseParallaxMultiplier}</code></td><td></td></tr>
+     * </table>
+     * @see #CollapsingToolbarLayout_Layout_layout_collapseMode
+     * @see #CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier
+     */
+    public static final int[] CollapsingToolbarLayout_Layout={
+        0x7f0300b6, 0x7f0300b7
+      };
+    /**
+     * <p>This symbol is the offset where the {@link com.boulderer.R.attr#layout_collapseMode}
+     * attribute's value can be found in the {@link #CollapsingToolbarLayout_Layout} array.
+     *
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>none</td><td>0</td><td></td></tr>
+     * <tr><td>parallax</td><td>2</td><td></td></tr>
+     * <tr><td>pin</td><td>1</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.boulderer:layout_collapseMode
+     */
+    public static final int CollapsingToolbarLayout_Layout_layout_collapseMode=0;
+    /**
+     * <p>This symbol is the offset where the {@link com.boulderer.R.attr#layout_collapseParallaxMultiplier}
+     * attribute's value can be found in the {@link #CollapsingToolbarLayout_Layout} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name com.boulderer:layout_collapseParallaxMultiplier
+     */
+    public static final int CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier=1;
+    /**
      * <p>This symbol is the offset where the {@link com.boulderer.R.attr#collapsedTitleGravity}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
@@ -7477,49 +7522,6 @@ public final class R {
      */
     public static final int CollapsingToolbarLayout_toolbarId=15;
     /**
-     * Attributes that can be used with a CollapsingToolbarLayout_Layout.
-     * <p>Includes the following attributes:</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_Layout_layout_collapseMode com.boulderer:layout_collapseMode}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier com.boulderer:layout_collapseParallaxMultiplier}</code></td><td></td></tr>
-     * </table>
-     * @see #CollapsingToolbarLayout_Layout_layout_collapseMode
-     * @see #CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier
-     */
-    public static final int[] CollapsingToolbarLayout_Layout={
-        0x7f0300b6, 0x7f0300b7
-      };
-    /**
-     * <p>This symbol is the offset where the {@link com.boulderer.R.attr#layout_collapseMode}
-     * attribute's value can be found in the {@link #CollapsingToolbarLayout_Layout} array.
-     *
-     * <p>Must be one of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>none</td><td>0</td><td></td></tr>
-     * <tr><td>parallax</td><td>2</td><td></td></tr>
-     * <tr><td>pin</td><td>1</td><td></td></tr>
-     * </table>
-     *
-     * @attr name com.boulderer:layout_collapseMode
-     */
-    public static final int CollapsingToolbarLayout_Layout_layout_collapseMode=0;
-    /**
-     * <p>This symbol is the offset where the {@link com.boulderer.R.attr#layout_collapseParallaxMultiplier}
-     * attribute's value can be found in the {@link #CollapsingToolbarLayout_Layout} array.
-     *
-     * <p>May be a floating point value, such as "<code>1.2</code>".
-     *
-     * @attr name com.boulderer:layout_collapseParallaxMultiplier
-     */
-    public static final int CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier=1;
-    /**
      * Attributes that can be used with a ColorStateListItem.
      * <p>Includes the following attributes:</p>
      * <table>
@@ -7538,16 +7540,14 @@ public final class R {
         0x010101a5, 0x0101031f, 0x7f03002a
       };
     /**
-     * <p>This symbol is the offset where the {@link android.R.attr#color}
+     * <p>This symbol is the offset where the {@link com.boulderer.R.attr#alpha}
      * attribute's value can be found in the {@link #ColorStateListItem} array.
      *
-     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
-     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
-     * "<code>#<i>aarrggbb</i></code>".
+     * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name android:color
+     * @attr name com.boulderer:alpha
      */
-    public static final int ColorStateListItem_android_color=0;
+    public static final int ColorStateListItem_alpha=2;
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#alpha}
      * attribute's value can be found in the {@link #ColorStateListItem} array.
@@ -7558,14 +7558,16 @@ public final class R {
      */
     public static final int ColorStateListItem_android_alpha=1;
     /**
-     * <p>This symbol is the offset where the {@link com.boulderer.R.attr#alpha}
+     * <p>This symbol is the offset where the {@link android.R.attr#color}
      * attribute's value can be found in the {@link #ColorStateListItem} array.
      *
-     * <p>May be a floating point value, such as "<code>1.2</code>".
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.boulderer:alpha
+     * @attr name android:color
      */
-    public static final int ColorStateListItem_alpha=2;
+    public static final int ColorStateListItem_android_color=0;
     /**
      * Attributes that can be used with a CompoundButton.
      * <p>Includes the following attributes:</p>
@@ -7643,30 +7645,6 @@ public final class R {
     public static final int[] CoordinatorLayout={
         0x7f0300ac, 0x7f030122
       };
-    /**
-     * <p>This symbol is the offset where the {@link com.boulderer.R.attr#keylines}
-     * attribute's value can be found in the {@link #CoordinatorLayout} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.boulderer:keylines
-     */
-    public static final int CoordinatorLayout_keylines=0;
-    /**
-     * <p>This symbol is the offset where the {@link com.boulderer.R.attr#statusBarBackground}
-     * attribute's value can be found in the {@link #CoordinatorLayout} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.boulderer:statusBarBackground
-     */
-    public static final int CoordinatorLayout_statusBarBackground=1;
     /**
      * Attributes that can be used with a CoordinatorLayout_Layout.
      * <p>Includes the following attributes:</p>
@@ -7828,6 +7806,30 @@ public final class R {
      * @attr name com.boulderer:layout_keyline
      */
     public static final int CoordinatorLayout_Layout_layout_keyline=6;
+    /**
+     * <p>This symbol is the offset where the {@link com.boulderer.R.attr#keylines}
+     * attribute's value can be found in the {@link #CoordinatorLayout} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.boulderer:keylines
+     */
+    public static final int CoordinatorLayout_keylines=0;
+    /**
+     * <p>This symbol is the offset where the {@link com.boulderer.R.attr#statusBarBackground}
+     * attribute's value can be found in the {@link #CoordinatorLayout} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.boulderer:statusBarBackground
+     */
+    public static final int CoordinatorLayout_statusBarBackground=1;
     /**
      * Attributes that can be used with a DesignTheme.
      * <p>Includes the following attributes:</p>
@@ -8039,6 +8041,30 @@ public final class R {
         0x7f03008f, 0x7f0300ef, 0x7f0300fe, 0x7f03016c
       };
     /**
+     * Attributes that can be used with a FloatingActionButton_Behavior_Layout.
+     * <p>Includes the following attributes:</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Attribute</th><th>Description</th></tr>
+     * <tr><td><code>{@link #FloatingActionButton_Behavior_Layout_behavior_autoHide com.boulderer:behavior_autoHide}</code></td><td></td></tr>
+     * </table>
+     * @see #FloatingActionButton_Behavior_Layout_behavior_autoHide
+     */
+    public static final int[] FloatingActionButton_Behavior_Layout={
+        0x7f030036
+      };
+    /**
+     * <p>This symbol is the offset where the {@link com.boulderer.R.attr#behavior_autoHide}
+     * attribute's value can be found in the {@link #FloatingActionButton_Behavior_Layout} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name com.boulderer:behavior_autoHide
+     */
+    public static final int FloatingActionButton_Behavior_Layout_behavior_autoHide=0;
+    /**
      * <p>This symbol is the offset where the {@link com.boulderer.R.attr#backgroundTint}
      * attribute's value can be found in the {@link #FloatingActionButton} array.
      *
@@ -8147,30 +8173,6 @@ public final class R {
      * @attr name com.boulderer:useCompatPadding
      */
     public static final int FloatingActionButton_useCompatPadding=7;
-    /**
-     * Attributes that can be used with a FloatingActionButton_Behavior_Layout.
-     * <p>Includes the following attributes:</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #FloatingActionButton_Behavior_Layout_behavior_autoHide com.boulderer:behavior_autoHide}</code></td><td></td></tr>
-     * </table>
-     * @see #FloatingActionButton_Behavior_Layout_behavior_autoHide
-     */
-    public static final int[] FloatingActionButton_Behavior_Layout={
-        0x7f030036
-      };
-    /**
-     * <p>This symbol is the offset where the {@link com.boulderer.R.attr#behavior_autoHide}
-     * attribute's value can be found in the {@link #FloatingActionButton_Behavior_Layout} array.
-     *
-     * <p>May be a boolean value, such as "<code>true</code>" or
-     * "<code>false</code>".
-     *
-     * @attr name com.boulderer:behavior_autoHide
-     */
-    public static final int FloatingActionButton_Behavior_Layout_behavior_autoHide=0;
     /**
      * Attributes that can be used with a ForegroundLinearLayout.
      * <p>Includes the following attributes:</p>
@@ -8684,6 +8686,129 @@ public final class R {
         0x7f030114
       };
     /**
+     * Attributes that can be used with a LinearLayoutCompat_Layout.
+     * <p>Includes the following attributes:</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Attribute</th><th>Description</th></tr>
+     * <tr><td><code>{@link #LinearLayoutCompat_Layout_android_layout_gravity android:layout_gravity}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LinearLayoutCompat_Layout_android_layout_width android:layout_width}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LinearLayoutCompat_Layout_android_layout_height android:layout_height}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LinearLayoutCompat_Layout_android_layout_weight android:layout_weight}</code></td><td></td></tr>
+     * </table>
+     * @see #LinearLayoutCompat_Layout_android_layout_gravity
+     * @see #LinearLayoutCompat_Layout_android_layout_width
+     * @see #LinearLayoutCompat_Layout_android_layout_height
+     * @see #LinearLayoutCompat_Layout_android_layout_weight
+     */
+    public static final int[] LinearLayoutCompat_Layout={
+        0x010100b3, 0x010100f4, 0x010100f5, 0x01010181
+      };
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#layout_gravity}
+     * attribute's value can be found in the {@link #LinearLayoutCompat_Layout} array.
+     *
+     * <p>Must be one or more (separated by '|') of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>end</td><td>800005</td><td></td></tr>
+     * <tr><td>start</td><td>800003</td><td></td></tr>
+     * <tr><td>bottom</td><td>50</td><td></td></tr>
+     * <tr><td>center</td><td>11</td><td></td></tr>
+     * <tr><td>center_horizontal</td><td>1</td><td></td></tr>
+     * <tr><td>center_vertical</td><td>10</td><td></td></tr>
+     * <tr><td>clip_horizontal</td><td>8</td><td></td></tr>
+     * <tr><td>clip_vertical</td><td>80</td><td></td></tr>
+     * <tr><td>fill</td><td>77</td><td></td></tr>
+     * <tr><td>fill_horizontal</td><td>7</td><td></td></tr>
+     * <tr><td>fill_vertical</td><td>70</td><td></td></tr>
+     * <tr><td>left</td><td>3</td><td></td></tr>
+     * <tr><td>right</td><td>5</td><td></td></tr>
+     * <tr><td>top</td><td>30</td><td></td></tr>
+     * </table>
+     *
+     * @attr name android:layout_gravity
+     */
+    public static final int LinearLayoutCompat_Layout_android_layout_gravity=0;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#layout_height}
+     * attribute's value can be found in the {@link #LinearLayoutCompat_Layout} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>wrap_content</td><td>fffffffe</td><td></td></tr>
+     * <tr><td>fill_parent</td><td>ffffffff</td><td></td></tr>
+     * <tr><td>match_parent</td><td>ffffffff</td><td></td></tr>
+     * </table>
+     *
+     * @attr name android:layout_height
+     */
+    public static final int LinearLayoutCompat_Layout_android_layout_height=2;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#layout_weight}
+     * attribute's value can be found in the {@link #LinearLayoutCompat_Layout} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name android:layout_weight
+     */
+    public static final int LinearLayoutCompat_Layout_android_layout_weight=3;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#layout_width}
+     * attribute's value can be found in the {@link #LinearLayoutCompat_Layout} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>wrap_content</td><td>fffffffe</td><td></td></tr>
+     * <tr><td>fill_parent</td><td>ffffffff</td><td></td></tr>
+     * <tr><td>match_parent</td><td>ffffffff</td><td></td></tr>
+     * </table>
+     *
+     * @attr name android:layout_width
+     */
+    public static final int LinearLayoutCompat_Layout_android_layout_width=1;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#baselineAligned}
+     * attribute's value can be found in the {@link #LinearLayoutCompat} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name android:baselineAligned
+     */
+    public static final int LinearLayoutCompat_android_baselineAligned=2;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#baselineAlignedChildIndex}
+     * attribute's value can be found in the {@link #LinearLayoutCompat} array.
+     *
+     * <p>May be an integer value, such as "<code>100</code>".
+     *
+     * @attr name android:baselineAlignedChildIndex
+     */
+    public static final int LinearLayoutCompat_android_baselineAlignedChildIndex=3;
+    /**
      * <p>This symbol is the offset where the {@link android.R.attr#gravity}
      * attribute's value can be found in the {@link #LinearLayoutCompat} array.
      *
@@ -8729,25 +8854,6 @@ public final class R {
      * @attr name android:orientation
      */
     public static final int LinearLayoutCompat_android_orientation=1;
-    /**
-     * <p>This symbol is the offset where the {@link android.R.attr#baselineAligned}
-     * attribute's value can be found in the {@link #LinearLayoutCompat} array.
-     *
-     * <p>May be a boolean value, such as "<code>true</code>" or
-     * "<code>false</code>".
-     *
-     * @attr name android:baselineAligned
-     */
-    public static final int LinearLayoutCompat_android_baselineAligned=2;
-    /**
-     * <p>This symbol is the offset where the {@link android.R.attr#baselineAlignedChildIndex}
-     * attribute's value can be found in the {@link #LinearLayoutCompat} array.
-     *
-     * <p>May be an integer value, such as "<code>100</code>".
-     *
-     * @attr name android:baselineAlignedChildIndex
-     */
-    public static final int LinearLayoutCompat_android_baselineAlignedChildIndex=3;
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#weightSum}
      * attribute's value can be found in the {@link #LinearLayoutCompat} array.
@@ -8811,110 +8917,6 @@ public final class R {
      * @attr name com.boulderer:showDividers
      */
     public static final int LinearLayoutCompat_showDividers=8;
-    /**
-     * Attributes that can be used with a LinearLayoutCompat_Layout.
-     * <p>Includes the following attributes:</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #LinearLayoutCompat_Layout_android_layout_gravity android:layout_gravity}</code></td><td></td></tr>
-     * <tr><td><code>{@link #LinearLayoutCompat_Layout_android_layout_width android:layout_width}</code></td><td></td></tr>
-     * <tr><td><code>{@link #LinearLayoutCompat_Layout_android_layout_height android:layout_height}</code></td><td></td></tr>
-     * <tr><td><code>{@link #LinearLayoutCompat_Layout_android_layout_weight android:layout_weight}</code></td><td></td></tr>
-     * </table>
-     * @see #LinearLayoutCompat_Layout_android_layout_gravity
-     * @see #LinearLayoutCompat_Layout_android_layout_width
-     * @see #LinearLayoutCompat_Layout_android_layout_height
-     * @see #LinearLayoutCompat_Layout_android_layout_weight
-     */
-    public static final int[] LinearLayoutCompat_Layout={
-        0x010100b3, 0x010100f4, 0x010100f5, 0x01010181
-      };
-    /**
-     * <p>This symbol is the offset where the {@link android.R.attr#layout_gravity}
-     * attribute's value can be found in the {@link #LinearLayoutCompat_Layout} array.
-     *
-     * <p>Must be one or more (separated by '|') of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>end</td><td>800005</td><td></td></tr>
-     * <tr><td>start</td><td>800003</td><td></td></tr>
-     * <tr><td>bottom</td><td>50</td><td></td></tr>
-     * <tr><td>center</td><td>11</td><td></td></tr>
-     * <tr><td>center_horizontal</td><td>1</td><td></td></tr>
-     * <tr><td>center_vertical</td><td>10</td><td></td></tr>
-     * <tr><td>clip_horizontal</td><td>8</td><td></td></tr>
-     * <tr><td>clip_vertical</td><td>80</td><td></td></tr>
-     * <tr><td>fill</td><td>77</td><td></td></tr>
-     * <tr><td>fill_horizontal</td><td>7</td><td></td></tr>
-     * <tr><td>fill_vertical</td><td>70</td><td></td></tr>
-     * <tr><td>left</td><td>3</td><td></td></tr>
-     * <tr><td>right</td><td>5</td><td></td></tr>
-     * <tr><td>top</td><td>30</td><td></td></tr>
-     * </table>
-     *
-     * @attr name android:layout_gravity
-     */
-    public static final int LinearLayoutCompat_Layout_android_layout_gravity=0;
-    /**
-     * <p>This symbol is the offset where the {@link android.R.attr#layout_width}
-     * attribute's value can be found in the {@link #LinearLayoutCompat_Layout} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     * <p>Must be one of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>wrap_content</td><td>fffffffe</td><td></td></tr>
-     * <tr><td>fill_parent</td><td>ffffffff</td><td></td></tr>
-     * <tr><td>match_parent</td><td>ffffffff</td><td></td></tr>
-     * </table>
-     *
-     * @attr name android:layout_width
-     */
-    public static final int LinearLayoutCompat_Layout_android_layout_width=1;
-    /**
-     * <p>This symbol is the offset where the {@link android.R.attr#layout_height}
-     * attribute's value can be found in the {@link #LinearLayoutCompat_Layout} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     * <p>Must be one of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>wrap_content</td><td>fffffffe</td><td></td></tr>
-     * <tr><td>fill_parent</td><td>ffffffff</td><td></td></tr>
-     * <tr><td>match_parent</td><td>ffffffff</td><td></td></tr>
-     * </table>
-     *
-     * @attr name android:layout_height
-     */
-    public static final int LinearLayoutCompat_Layout_android_layout_height=2;
-    /**
-     * <p>This symbol is the offset where the {@link android.R.attr#layout_weight}
-     * attribute's value can be found in the {@link #LinearLayoutCompat_Layout} array.
-     *
-     * <p>May be a floating point value, such as "<code>1.2</code>".
-     *
-     * @attr name android:layout_weight
-     */
-    public static final int LinearLayoutCompat_Layout_android_layout_weight=3;
     /**
      * Attributes that can be used with a ListPopupWindow.
      * <p>Includes the following attributes:</p>
@@ -9413,6 +9415,24 @@ public final class R {
         0x010101df, 0x010101e0
       };
     /**
+     * <p>This symbol is the offset where the {@link android.R.attr#checkableBehavior}
+     * attribute's value can be found in the {@link #MenuGroup} array.
+     *
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>none</td><td>0</td><td></td></tr>
+     * <tr><td>all</td><td>1</td><td></td></tr>
+     * <tr><td>single</td><td>2</td><td></td></tr>
+     * </table>
+     *
+     * @attr name android:checkableBehavior
+     */
+    public static final int MenuGroup_android_checkableBehavior=5;
+    /**
      * <p>This symbol is the offset where the {@link android.R.attr#enabled}
      * attribute's value can be found in the {@link #MenuGroup} array.
      *
@@ -9434,16 +9454,6 @@ public final class R {
      * @attr name android:id
      */
     public static final int MenuGroup_android_id=1;
-    /**
-     * <p>This symbol is the offset where the {@link android.R.attr#visible}
-     * attribute's value can be found in the {@link #MenuGroup} array.
-     *
-     * <p>May be a boolean value, such as "<code>true</code>" or
-     * "<code>false</code>".
-     *
-     * @attr name android:visible
-     */
-    public static final int MenuGroup_android_visible=2;
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#menuCategory}
      * attribute's value can be found in the {@link #MenuGroup} array.
@@ -9473,23 +9483,15 @@ public final class R {
      */
     public static final int MenuGroup_android_orderInCategory=4;
     /**
-     * <p>This symbol is the offset where the {@link android.R.attr#checkableBehavior}
+     * <p>This symbol is the offset where the {@link android.R.attr#visible}
      * attribute's value can be found in the {@link #MenuGroup} array.
      *
-     * <p>Must be one of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>none</td><td>0</td><td></td></tr>
-     * <tr><td>all</td><td>1</td><td></td></tr>
-     * <tr><td>single</td><td>2</td><td></td></tr>
-     * </table>
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
      *
-     * @attr name android:checkableBehavior
+     * @attr name android:visible
      */
-    public static final int MenuGroup_android_checkableBehavior=5;
+    public static final int MenuGroup_android_visible=2;
     /**
      * Attributes that can be used with a MenuItem.
      * <p>Includes the following attributes:</p>
@@ -9541,148 +9543,6 @@ public final class R {
         0x7f030113
       };
     /**
-     * <p>This symbol is the offset where the {@link android.R.attr#icon}
-     * attribute's value can be found in the {@link #MenuItem} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name android:icon
-     */
-    public static final int MenuItem_android_icon=0;
-    /**
-     * <p>This symbol is the offset where the {@link android.R.attr#enabled}
-     * attribute's value can be found in the {@link #MenuItem} array.
-     *
-     * <p>May be a boolean value, such as "<code>true</code>" or
-     * "<code>false</code>".
-     *
-     * @attr name android:enabled
-     */
-    public static final int MenuItem_android_enabled=1;
-    /**
-     * <p>This symbol is the offset where the {@link android.R.attr#id}
-     * attribute's value can be found in the {@link #MenuItem} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name android:id
-     */
-    public static final int MenuItem_android_id=2;
-    /**
-     * <p>This symbol is the offset where the {@link android.R.attr#checked}
-     * attribute's value can be found in the {@link #MenuItem} array.
-     *
-     * <p>May be a boolean value, such as "<code>true</code>" or
-     * "<code>false</code>".
-     *
-     * @attr name android:checked
-     */
-    public static final int MenuItem_android_checked=3;
-    /**
-     * <p>This symbol is the offset where the {@link android.R.attr#visible}
-     * attribute's value can be found in the {@link #MenuItem} array.
-     *
-     * <p>May be a boolean value, such as "<code>true</code>" or
-     * "<code>false</code>".
-     *
-     * @attr name android:visible
-     */
-    public static final int MenuItem_android_visible=4;
-    /**
-     * <p>This symbol is the offset where the {@link android.R.attr#menuCategory}
-     * attribute's value can be found in the {@link #MenuItem} array.
-     *
-     * <p>Must be one of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>alternative</td><td>40000</td><td></td></tr>
-     * <tr><td>container</td><td>10000</td><td></td></tr>
-     * <tr><td>secondary</td><td>30000</td><td></td></tr>
-     * <tr><td>system</td><td>20000</td><td></td></tr>
-     * </table>
-     *
-     * @attr name android:menuCategory
-     */
-    public static final int MenuItem_android_menuCategory=5;
-    /**
-     * <p>This symbol is the offset where the {@link android.R.attr#orderInCategory}
-     * attribute's value can be found in the {@link #MenuItem} array.
-     *
-     * <p>May be an integer value, such as "<code>100</code>".
-     *
-     * @attr name android:orderInCategory
-     */
-    public static final int MenuItem_android_orderInCategory=6;
-    /**
-     * <p>This symbol is the offset where the {@link android.R.attr#title}
-     * attribute's value can be found in the {@link #MenuItem} array.
-     *
-     * <p>May be a string value, using '\\;' to escape characters such as
-     * '\\n' or '\\uxxxx' for a unicode character;
-     *
-     * @attr name android:title
-     */
-    public static final int MenuItem_android_title=7;
-    /**
-     * <p>This symbol is the offset where the {@link android.R.attr#titleCondensed}
-     * attribute's value can be found in the {@link #MenuItem} array.
-     *
-     * <p>May be a string value, using '\\;' to escape characters such as
-     * '\\n' or '\\uxxxx' for a unicode character;
-     *
-     * @attr name android:titleCondensed
-     */
-    public static final int MenuItem_android_titleCondensed=8;
-    /**
-     * <p>This symbol is the offset where the {@link android.R.attr#alphabeticShortcut}
-     * attribute's value can be found in the {@link #MenuItem} array.
-     *
-     * <p>May be a string value, using '\\;' to escape characters such as
-     * '\\n' or '\\uxxxx' for a unicode character;
-     *
-     * @attr name android:alphabeticShortcut
-     */
-    public static final int MenuItem_android_alphabeticShortcut=9;
-    /**
-     * <p>This symbol is the offset where the {@link android.R.attr#numericShortcut}
-     * attribute's value can be found in the {@link #MenuItem} array.
-     *
-     * <p>May be a string value, using '\\;' to escape characters such as
-     * '\\n' or '\\uxxxx' for a unicode character;
-     *
-     * @attr name android:numericShortcut
-     */
-    public static final int MenuItem_android_numericShortcut=10;
-    /**
-     * <p>This symbol is the offset where the {@link android.R.attr#checkable}
-     * attribute's value can be found in the {@link #MenuItem} array.
-     *
-     * <p>May be a boolean value, such as "<code>true</code>" or
-     * "<code>false</code>".
-     *
-     * @attr name android:checkable
-     */
-    public static final int MenuItem_android_checkable=11;
-    /**
-     * <p>This symbol is the offset where the {@link android.R.attr#onClick}
-     * attribute's value can be found in the {@link #MenuItem} array.
-     *
-     * <p>May be a string value, using '\\;' to escape characters such as
-     * '\\n' or '\\uxxxx' for a unicode character;
-     *
-     * @attr name android:onClick
-     */
-    public static final int MenuItem_android_onClick=12;
-    /**
      * <p>This symbol is the offset where the {@link com.boulderer.R.attr#actionLayout}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
@@ -9714,6 +9574,148 @@ public final class R {
      * @attr name com.boulderer:actionViewClass
      */
     public static final int MenuItem_actionViewClass=15;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#alphabeticShortcut}
+     * attribute's value can be found in the {@link #MenuItem} array.
+     *
+     * <p>May be a string value, using '\\;' to escape characters such as
+     * '\\n' or '\\uxxxx' for a unicode character;
+     *
+     * @attr name android:alphabeticShortcut
+     */
+    public static final int MenuItem_android_alphabeticShortcut=9;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#checkable}
+     * attribute's value can be found in the {@link #MenuItem} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name android:checkable
+     */
+    public static final int MenuItem_android_checkable=11;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#checked}
+     * attribute's value can be found in the {@link #MenuItem} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name android:checked
+     */
+    public static final int MenuItem_android_checked=3;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#enabled}
+     * attribute's value can be found in the {@link #MenuItem} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name android:enabled
+     */
+    public static final int MenuItem_android_enabled=1;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#icon}
+     * attribute's value can be found in the {@link #MenuItem} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name android:icon
+     */
+    public static final int MenuItem_android_icon=0;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#id}
+     * attribute's value can be found in the {@link #MenuItem} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name android:id
+     */
+    public static final int MenuItem_android_id=2;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#menuCategory}
+     * attribute's value can be found in the {@link #MenuItem} array.
+     *
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>alternative</td><td>40000</td><td></td></tr>
+     * <tr><td>container</td><td>10000</td><td></td></tr>
+     * <tr><td>secondary</td><td>30000</td><td></td></tr>
+     * <tr><td>system</td><td>20000</td><td></td></tr>
+     * </table>
+     *
+     * @attr name android:menuCategory
+     */
+    public static final int MenuItem_android_menuCategory=5;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#numericShortcut}
+     * attribute's value can be found in the {@link #MenuItem} array.
+     *
+     * <p>May be a string value, using '\\;' to escape characters such as
+     * '\\n' or '\\uxxxx' for a unicode character;
+     *
+     * @attr name android:numericShortcut
+     */
+    public static final int MenuItem_android_numericShortcut=10;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#onClick}
+     * attribute's value can be found in the {@link #MenuItem} array.
+     *
+     * <p>May be a string value, using '\\;' to escape characters such as
+     * '\\n' or '\\uxxxx' for a unicode character;
+     *
+     * @attr name android:onClick
+     */
+    public static final int MenuItem_android_onClick=12;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#orderInCategory}
+     * attribute's value can be found in the {@link #MenuItem} array.
+     *
+     * <p>May be an integer value, such as "<code>100</code>".
+     *
+     * @attr name android:orderInCategory
+     */
+    public static final int MenuItem_android_orderInCategory=6;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#title}
+     * attribute's value can be found in the {@link #MenuItem} array.
+     *
+     * <p>May be a string value, using '\\;' to escape characters such as
+     * '\\n' or '\\uxxxx' for a unicode character;
+     *
+     * @attr name android:title
+     */
+    public static final int MenuItem_android_title=7;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#titleCondensed}
+     * attribute's value can be found in the {@link #MenuItem} array.
+     *
+     * <p>May be a string value, using '\\;' to escape characters such as
+     * '\\n' or '\\uxxxx' for a unicode character;
+     *
+     * @attr name android:titleCondensed
+     */
+    public static final int MenuItem_android_titleCondensed=8;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#visible}
+     * attribute's value can be found in the {@link #MenuItem} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name android:visible
+     */
+    public static final int MenuItem_android_visible=4;
     /**
      * <p>This symbol is the offset where the {@link com.boulderer.R.attr#showAsAction}
      * attribute's value can be found in the {@link #MenuItem} array.
@@ -9767,54 +9769,6 @@ public final class R {
         0x7f030124
       };
     /**
-     * <p>This symbol is the offset where the {@link android.R.attr#windowAnimationStyle}
-     * attribute's value can be found in the {@link #MenuView} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name android:windowAnimationStyle
-     */
-    public static final int MenuView_android_windowAnimationStyle=0;
-    /**
-     * <p>This symbol is the offset where the {@link android.R.attr#itemTextAppearance}
-     * attribute's value can be found in the {@link #MenuView} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name android:itemTextAppearance
-     */
-    public static final int MenuView_android_itemTextAppearance=1;
-    /**
-     * <p>This symbol is the offset where the {@link android.R.attr#horizontalDivider}
-     * attribute's value can be found in the {@link #MenuView} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name android:horizontalDivider
-     */
-    public static final int MenuView_android_horizontalDivider=2;
-    /**
-     * <p>This symbol is the offset where the {@link android.R.attr#verticalDivider}
-     * attribute's value can be found in the {@link #MenuView} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name android:verticalDivider
-     */
-    public static final int MenuView_android_verticalDivider=3;
-    /**
      * <p>This symbol is the offset where the {@link android.R.attr#headerBackground}
      * attribute's value can be found in the {@link #MenuView} array.
      *
@@ -9829,6 +9783,18 @@ public final class R {
      * @attr name android:headerBackground
      */
     public static final int MenuView_android_headerBackground=4;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#horizontalDivider}
+     * attribute's value can be found in the {@link #MenuView} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name android:horizontalDivider
+     */
+    public static final int MenuView_android_horizontalDivider=2;
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#itemBackground}
      * attribute's value can be found in the {@link #MenuView} array.
@@ -9853,6 +9819,42 @@ public final class R {
      * @attr name android:itemIconDisabledAlpha
      */
     public static final int MenuView_android_itemIconDisabledAlpha=6;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#itemTextAppearance}
+     * attribute's value can be found in the {@link #MenuView} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name android:itemTextAppearance
+     */
+    public static final int MenuView_android_itemTextAppearance=1;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#verticalDivider}
+     * attribute's value can be found in the {@link #MenuView} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name android:verticalDivider
+     */
+    public static final int MenuView_android_verticalDivider=3;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#windowAnimationStyle}
+     * attribute's value can be found in the {@link #MenuView} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name android:windowAnimationStyle
+     */
+    public static final int MenuView_android_windowAnimationStyle=0;
     /**
      * <p>This symbol is the offset where the {@link com.boulderer.R.attr#preserveIconSpacing}
      * attribute's value can be found in the {@link #MenuView} array.
@@ -10049,43 +10051,6 @@ public final class R {
         0x01010176, 0x010102c9, 0x7f0300da
       };
     /**
-     * <p>This symbol is the offset where the {@link android.R.attr#popupBackground}
-     * attribute's value can be found in the {@link #PopupWindow} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
-     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
-     * "<code>#<i>aarrggbb</i></code>".
-     *
-     * @attr name android:popupBackground
-     */
-    public static final int PopupWindow_android_popupBackground=0;
-    /**
-     * <p>This symbol is the offset where the {@link android.R.attr#popupAnimationStyle}
-     * attribute's value can be found in the {@link #PopupWindow} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name android:popupAnimationStyle
-     */
-    public static final int PopupWindow_android_popupAnimationStyle=1;
-    /**
-     * <p>This symbol is the offset where the {@link com.boulderer.R.attr#overlapAnchor}
-     * attribute's value can be found in the {@link #PopupWindow} array.
-     *
-     * <p>May be a boolean value, such as "<code>true</code>" or
-     * "<code>false</code>".
-     *
-     * @attr name com.boulderer:overlapAnchor
-     */
-    public static final int PopupWindow_overlapAnchor=2;
-    /**
      * Attributes that can be used with a PopupWindowBackgroundState.
      * <p>Includes the following attributes:</p>
      * <table>
@@ -10109,6 +10074,43 @@ public final class R {
      * @attr name com.boulderer:state_above_anchor
      */
     public static final int PopupWindowBackgroundState_state_above_anchor=0;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#popupAnimationStyle}
+     * attribute's value can be found in the {@link #PopupWindow} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name android:popupAnimationStyle
+     */
+    public static final int PopupWindow_android_popupAnimationStyle=1;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#popupBackground}
+     * attribute's value can be found in the {@link #PopupWindow} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     *
+     * @attr name android:popupBackground
+     */
+    public static final int PopupWindow_android_popupBackground=0;
+    /**
+     * <p>This symbol is the offset where the {@link com.boulderer.R.attr#overlapAnchor}
+     * attribute's value can be found in the {@link #PopupWindow} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name com.boulderer:overlapAnchor
+     */
+    public static final int PopupWindow_overlapAnchor=2;
     /**
      * Attributes that can be used with a RecycleListView.
      * <p>Includes the following attributes:</p>
@@ -10177,23 +10179,6 @@ public final class R {
         0x7f030118, 0x7f03011e
       };
     /**
-     * <p>This symbol is the offset where the {@link android.R.attr#orientation}
-     * attribute's value can be found in the {@link #RecyclerView} array.
-     *
-     * <p>Must be one of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>horizontal</td><td>0</td><td></td></tr>
-     * <tr><td>vertical</td><td>1</td><td></td></tr>
-     * </table>
-     *
-     * @attr name android:orientation
-     */
-    public static final int RecyclerView_android_orientation=0;
-    /**
      * <p>This symbol is the offset where the {@link android.R.attr#descendantFocusability}
      * attribute's value can be found in the {@link #RecyclerView} array.
      *
@@ -10211,6 +10196,23 @@ public final class R {
      * @attr name android:descendantFocusability
      */
     public static final int RecyclerView_android_descendantFocusability=1;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#orientation}
+     * attribute's value can be found in the {@link #RecyclerView} array.
+     *
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>horizontal</td><td>0</td><td></td></tr>
+     * <tr><td>vertical</td><td>1</td><td></td></tr>
+     * </table>
+     *
+     * @attr name android:orientation
+     */
+    public static final int RecyclerView_android_orientation=0;
     /**
      * <p>This symbol is the offset where the {@link com.boulderer.R.attr#layoutManager}
      * attribute's value can be found in the {@link #RecyclerView} array.
@@ -10367,18 +10369,36 @@ public final class R {
      */
     public static final int SearchView_android_focusable=0;
     /**
-     * <p>This symbol is the offset where the {@link android.R.attr#maxWidth}
+     * <p>This symbol is the offset where the {@link android.R.attr#imeOptions}
      * attribute's value can be found in the {@link #SearchView} array.
      *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
+     * <p>Must be one or more (separated by '|') of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>normal</td><td>0</td><td></td></tr>
+     * <tr><td>actionDone</td><td>6</td><td></td></tr>
+     * <tr><td>actionGo</td><td>2</td><td></td></tr>
+     * <tr><td>actionNext</td><td>5</td><td></td></tr>
+     * <tr><td>actionNone</td><td>1</td><td></td></tr>
+     * <tr><td>actionPrevious</td><td>7</td><td></td></tr>
+     * <tr><td>actionSearch</td><td>3</td><td></td></tr>
+     * <tr><td>actionSend</td><td>4</td><td></td></tr>
+     * <tr><td>actionUnspecified</td><td>0</td><td></td></tr>
+     * <tr><td>flagForceAscii</td><td>80000000</td><td></td></tr>
+     * <tr><td>flagNavigateNext</td><td>8000000</td><td></td></tr>
+     * <tr><td>flagNavigatePrevious</td><td>4000000</td><td></td></tr>
+     * <tr><td>flagNoAccessoryAction</td><td>20000000</td><td></td></tr>
+     * <tr><td>flagNoEnterAction</td><td>40000000</td><td></td></tr>
+     * <tr><td>flagNoExtractUi</td><td>10000000</td><td></td></tr>
+     * <tr><td>flagNoFullscreen</td><td>2000000</td><td></td></tr>
+     * </table>
      *
-     * @attr name android:maxWidth
+     * @attr name android:imeOptions
      */
-    public static final int SearchView_android_maxWidth=1;
+    public static final int SearchView_android_imeOptions=3;
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#inputType}
      * attribute's value can be found in the {@link #SearchView} array.
@@ -10427,36 +10447,18 @@ public final class R {
      */
     public static final int SearchView_android_inputType=2;
     /**
-     * <p>This symbol is the offset where the {@link android.R.attr#imeOptions}
+     * <p>This symbol is the offset where the {@link android.R.attr#maxWidth}
      * attribute's value can be found in the {@link #SearchView} array.
      *
-     * <p>Must be one or more (separated by '|') of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>normal</td><td>0</td><td></td></tr>
-     * <tr><td>actionDone</td><td>6</td><td></td></tr>
-     * <tr><td>actionGo</td><td>2</td><td></td></tr>
-     * <tr><td>actionNext</td><td>5</td><td></td></tr>
-     * <tr><td>actionNone</td><td>1</td><td></td></tr>
-     * <tr><td>actionPrevious</td><td>7</td><td></td></tr>
-     * <tr><td>actionSearch</td><td>3</td><td></td></tr>
-     * <tr><td>actionSend</td><td>4</td><td></td></tr>
-     * <tr><td>actionUnspecified</td><td>0</td><td></td></tr>
-     * <tr><td>flagForceAscii</td><td>80000000</td><td></td></tr>
-     * <tr><td>flagNavigateNext</td><td>8000000</td><td></td></tr>
-     * <tr><td>flagNavigatePrevious</td><td>4000000</td><td></td></tr>
-     * <tr><td>flagNoAccessoryAction</td><td>20000000</td><td></td></tr>
-     * <tr><td>flagNoEnterAction</td><td>40000000</td><td></td></tr>
-     * <tr><td>flagNoExtractUi</td><td>10000000</td><td></td></tr>
-     * <tr><td>flagNoFullscreen</td><td>2000000</td><td></td></tr>
-     * </table>
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
      *
-     * @attr name android:imeOptions
+     * @attr name android:maxWidth
      */
-    public static final int SearchView_android_imeOptions=3;
+    public static final int SearchView_android_maxWidth=1;
     /**
      * <p>This symbol is the offset where the {@link com.boulderer.R.attr#closeIcon}
      * attribute's value can be found in the {@link #SearchView} array.
@@ -10802,6 +10804,29 @@ public final class R {
         0x7f0300eb
       };
     /**
+     * <p>This symbol is the offset where the {@link android.R.attr#dropDownWidth}
+     * attribute's value can be found in the {@link #Spinner} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>wrap_content</td><td>fffffffe</td><td></td></tr>
+     * <tr><td>fill_parent</td><td>ffffffff</td><td></td></tr>
+     * <tr><td>match_parent</td><td>ffffffff</td><td></td></tr>
+     * </table>
+     *
+     * @attr name android:dropDownWidth
+     */
+    public static final int Spinner_android_dropDownWidth=3;
+    /**
      * <p>This symbol is the offset where the {@link android.R.attr#entries}
      * attribute's value can be found in the {@link #Spinner} array.
      *
@@ -10840,29 +10865,6 @@ public final class R {
      * @attr name android:prompt
      */
     public static final int Spinner_android_prompt=2;
-    /**
-     * <p>This symbol is the offset where the {@link android.R.attr#dropDownWidth}
-     * attribute's value can be found in the {@link #Spinner} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     * <p>Must be one of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>wrap_content</td><td>fffffffe</td><td></td></tr>
-     * <tr><td>fill_parent</td><td>ffffffff</td><td></td></tr>
-     * <tr><td>match_parent</td><td>ffffffff</td><td></td></tr>
-     * </table>
-     *
-     * @attr name android:dropDownWidth
-     */
-    public static final int Spinner_android_dropDownWidth=3;
     /**
      * <p>This symbol is the offset where the {@link com.boulderer.R.attr#popupTheme}
      * attribute's value can be found in the {@link #Spinner} array.
@@ -10919,16 +10921,6 @@ public final class R {
         0x7f030162, 0x7f030163
       };
     /**
-     * <p>This symbol is the offset where the {@link android.R.attr#textOn}
-     * attribute's value can be found in the {@link #SwitchCompat} array.
-     *
-     * <p>May be a string value, using '\\;' to escape characters such as
-     * '\\n' or '\\uxxxx' for a unicode character;
-     *
-     * @attr name android:textOn
-     */
-    public static final int SwitchCompat_android_textOn=0;
-    /**
      * <p>This symbol is the offset where the {@link android.R.attr#textOff}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
@@ -10938,6 +10930,16 @@ public final class R {
      * @attr name android:textOff
      */
     public static final int SwitchCompat_android_textOff=1;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#textOn}
+     * attribute's value can be found in the {@link #SwitchCompat} array.
+     *
+     * <p>May be a string value, using '\\;' to escape characters such as
+     * '\\n' or '\\uxxxx' for a unicode character;
+     *
+     * @attr name android:textOn
+     */
+    public static final int SwitchCompat_android_textOn=0;
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#thumb}
      * attribute's value can be found in the {@link #SwitchCompat} array.
@@ -11439,86 +11441,6 @@ public final class R {
         0x01010164, 0x7f030140
       };
     /**
-     * <p>This symbol is the offset where the {@link android.R.attr#textSize}
-     * attribute's value can be found in the {@link #TextAppearance} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name android:textSize
-     */
-    public static final int TextAppearance_android_textSize=0;
-    /**
-     * <p>This symbol is the offset where the {@link android.R.attr#typeface}
-     * attribute's value can be found in the {@link #TextAppearance} array.
-     *
-     * <p>Must be one of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>monospace</td><td>3</td><td></td></tr>
-     * <tr><td>normal</td><td>0</td><td></td></tr>
-     * <tr><td>sans</td><td>1</td><td></td></tr>
-     * <tr><td>serif</td><td>2</td><td></td></tr>
-     * </table>
-     *
-     * @attr name android:typeface
-     */
-    public static final int TextAppearance_android_typeface=1;
-    /**
-     * <p>This symbol is the offset where the {@link android.R.attr#textStyle}
-     * attribute's value can be found in the {@link #TextAppearance} array.
-     *
-     * <p>Must be one or more (separated by '|') of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>normal</td><td>0</td><td></td></tr>
-     * <tr><td>bold</td><td>1</td><td></td></tr>
-     * <tr><td>italic</td><td>2</td><td></td></tr>
-     * </table>
-     *
-     * @attr name android:textStyle
-     */
-    public static final int TextAppearance_android_textStyle=2;
-    /**
-     * <p>This symbol is the offset where the {@link android.R.attr#textColor}
-     * attribute's value can be found in the {@link #TextAppearance} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
-     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
-     * "<code>#<i>aarrggbb</i></code>".
-     *
-     * @attr name android:textColor
-     */
-    public static final int TextAppearance_android_textColor=3;
-    /**
-     * <p>This symbol is the offset where the {@link android.R.attr#textColorHint}
-     * attribute's value can be found in the {@link #TextAppearance} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
-     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
-     * "<code>#<i>aarrggbb</i></code>".
-     *
-     * @attr name android:textColorHint
-     */
-    public static final int TextAppearance_android_textColorHint=4;
-    /**
      * <p>This symbol is the offset where the {@link android.R.attr#shadowColor}
      * attribute's value can be found in the {@link #TextAppearance} array.
      *
@@ -11556,6 +11478,86 @@ public final class R {
      * @attr name android:shadowRadius
      */
     public static final int TextAppearance_android_shadowRadius=8;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#textColor}
+     * attribute's value can be found in the {@link #TextAppearance} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     *
+     * @attr name android:textColor
+     */
+    public static final int TextAppearance_android_textColor=3;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#textColorHint}
+     * attribute's value can be found in the {@link #TextAppearance} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     *
+     * @attr name android:textColorHint
+     */
+    public static final int TextAppearance_android_textColorHint=4;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#textSize}
+     * attribute's value can be found in the {@link #TextAppearance} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name android:textSize
+     */
+    public static final int TextAppearance_android_textSize=0;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#textStyle}
+     * attribute's value can be found in the {@link #TextAppearance} array.
+     *
+     * <p>Must be one or more (separated by '|') of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>normal</td><td>0</td><td></td></tr>
+     * <tr><td>bold</td><td>1</td><td></td></tr>
+     * <tr><td>italic</td><td>2</td><td></td></tr>
+     * </table>
+     *
+     * @attr name android:textStyle
+     */
+    public static final int TextAppearance_android_textStyle=2;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#typeface}
+     * attribute's value can be found in the {@link #TextAppearance} array.
+     *
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>monospace</td><td>3</td><td></td></tr>
+     * <tr><td>normal</td><td>0</td><td></td></tr>
+     * <tr><td>sans</td><td>1</td><td></td></tr>
+     * <tr><td>serif</td><td>2</td><td></td></tr>
+     * </table>
+     *
+     * @attr name android:typeface
+     */
+    public static final int TextAppearance_android_typeface=1;
     /**
      * <p>This symbol is the offset where the {@link com.boulderer.R.attr#textAllCaps}
      * attribute's value can be found in the {@link #TextAppearance} array.
@@ -11618,6 +11620,16 @@ public final class R {
         0x7f0300e4, 0x7f0300e5, 0x7f0300e6, 0x7f0300e7
       };
     /**
+     * <p>This symbol is the offset where the {@link android.R.attr#hint}
+     * attribute's value can be found in the {@link #TextInputLayout} array.
+     *
+     * <p>May be a string value, using '\\;' to escape characters such as
+     * '\\n' or '\\uxxxx' for a unicode character;
+     *
+     * @attr name android:hint
+     */
+    public static final int TextInputLayout_android_hint=1;
+    /**
      * <p>This symbol is the offset where the {@link android.R.attr#textColorHint}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
@@ -11632,16 +11644,6 @@ public final class R {
      * @attr name android:textColorHint
      */
     public static final int TextInputLayout_android_textColorHint=0;
-    /**
-     * <p>This symbol is the offset where the {@link android.R.attr#hint}
-     * attribute's value can be found in the {@link #TextInputLayout} array.
-     *
-     * <p>May be a string value, using '\\;' to escape characters such as
-     * '\\n' or '\\uxxxx' for a unicode character;
-     *
-     * @attr name android:hint
-     */
-    public static final int TextInputLayout_android_hint=1;
     /**
      * <p>This symbol is the offset where the {@link com.boulderer.R.attr#counterEnabled}
      * attribute's value can be found in the {@link #TextInputLayout} array.
@@ -11839,64 +11841,6 @@ public final class R {
         0x01010162, 0x01010163, 0x01010164
       };
     /**
-     * <p>This symbol is the offset where the {@link android.R.attr#textAppearance}
-     * attribute's value can be found in the {@link #TextStyle} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name android:textAppearance
-     */
-    public static final int TextStyle_android_textAppearance=0;
-    /**
-     * <p>This symbol is the offset where the {@link android.R.attr#textSize}
-     * attribute's value can be found in the {@link #TextStyle} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name android:textSize
-     */
-    public static final int TextStyle_android_textSize=1;
-    /**
-     * <p>This symbol is the offset where the {@link android.R.attr#textStyle}
-     * attribute's value can be found in the {@link #TextStyle} array.
-     *
-     * <p>Must be one or more (separated by '|') of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>normal</td><td>0</td><td></td></tr>
-     * <tr><td>bold</td><td>1</td><td></td></tr>
-     * <tr><td>italic</td><td>2</td><td></td></tr>
-     * </table>
-     *
-     * @attr name android:textStyle
-     */
-    public static final int TextStyle_android_textStyle=2;
-    /**
-     * <p>This symbol is the offset where the {@link android.R.attr#textColor}
-     * attribute's value can be found in the {@link #TextStyle} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
-     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
-     * "<code>#<i>aarrggbb</i></code>".
-     *
-     * @attr name android:textColor
-     */
-    public static final int TextStyle_android_textColor=3;
-    /**
      * <p>This symbol is the offset where the {@link android.R.attr#ellipsize}
      * attribute's value can be found in the {@link #TextStyle} array.
      *
@@ -11925,16 +11869,6 @@ public final class R {
      * @attr name android:maxLines
      */
     public static final int TextStyle_android_maxLines=5;
-    /**
-     * <p>This symbol is the offset where the {@link android.R.attr#singleLine}
-     * attribute's value can be found in the {@link #TextStyle} array.
-     *
-     * <p>May be a boolean value, such as "<code>true</code>" or
-     * "<code>false</code>".
-     *
-     * @attr name android:singleLine
-     */
-    public static final int TextStyle_android_singleLine=6;
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#shadowColor}
      * attribute's value can be found in the {@link #TextStyle} array.
@@ -11973,6 +11907,74 @@ public final class R {
      * @attr name android:shadowRadius
      */
     public static final int TextStyle_android_shadowRadius=10;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#singleLine}
+     * attribute's value can be found in the {@link #TextStyle} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name android:singleLine
+     */
+    public static final int TextStyle_android_singleLine=6;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#textAppearance}
+     * attribute's value can be found in the {@link #TextStyle} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name android:textAppearance
+     */
+    public static final int TextStyle_android_textAppearance=0;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#textColor}
+     * attribute's value can be found in the {@link #TextStyle} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     *
+     * @attr name android:textColor
+     */
+    public static final int TextStyle_android_textColor=3;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#textSize}
+     * attribute's value can be found in the {@link #TextStyle} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name android:textSize
+     */
+    public static final int TextStyle_android_textSize=1;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#textStyle}
+     * attribute's value can be found in the {@link #TextStyle} array.
+     *
+     * <p>Must be one or more (separated by '|') of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>normal</td><td>0</td><td></td></tr>
+     * <tr><td>bold</td><td>1</td><td></td></tr>
+     * <tr><td>italic</td><td>2</td><td></td></tr>
+     * </table>
+     *
+     * @attr name android:textStyle
+     */
+    public static final int TextStyle_android_textStyle=2;
     /**
      * Attributes that can be used with a Toolbar.
      * <p>Includes the following attributes:</p>
@@ -12446,66 +12448,6 @@ public final class R {
         0x7f03014b
       };
     /**
-     * <p>This symbol is the offset where the {@link android.R.attr#theme}
-     * attribute's value can be found in the {@link #View} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name android:theme
-     */
-    public static final int View_android_theme=0;
-    /**
-     * <p>This symbol is the offset where the {@link android.R.attr#focusable}
-     * attribute's value can be found in the {@link #View} array.
-     *
-     * <p>May be a boolean value, such as "<code>true</code>" or
-     * "<code>false</code>".
-     *
-     * @attr name android:focusable
-     */
-    public static final int View_android_focusable=1;
-    /**
-     * <p>This symbol is the offset where the {@link com.boulderer.R.attr#paddingEnd}
-     * attribute's value can be found in the {@link #View} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name com.boulderer:paddingEnd
-     */
-    public static final int View_paddingEnd=2;
-    /**
-     * <p>This symbol is the offset where the {@link com.boulderer.R.attr#paddingStart}
-     * attribute's value can be found in the {@link #View} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name com.boulderer:paddingStart
-     */
-    public static final int View_paddingStart=3;
-    /**
-     * <p>This symbol is the offset where the {@link com.boulderer.R.attr#theme}
-     * attribute's value can be found in the {@link #View} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.boulderer:theme
-     */
-    public static final int View_theme=4;
-    /**
      * Attributes that can be used with a ViewBackgroundHelper.
      * <p>Includes the following attributes:</p>
      * <table>
@@ -12600,6 +12542,18 @@ public final class R {
      */
     public static final int ViewStubCompat_android_id=0;
     /**
+     * <p>This symbol is the offset where the {@link android.R.attr#inflatedId}
+     * attribute's value can be found in the {@link #ViewStubCompat} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name android:inflatedId
+     */
+    public static final int ViewStubCompat_android_inflatedId=2;
+    /**
      * <p>This symbol is the offset where the {@link android.R.attr#layout}
      * attribute's value can be found in the {@link #ViewStubCompat} array.
      *
@@ -12612,19 +12566,68 @@ public final class R {
      */
     public static final int ViewStubCompat_android_layout=1;
     /**
-     * <p>This symbol is the offset where the {@link android.R.attr#inflatedId}
-     * attribute's value can be found in the {@link #ViewStubCompat} array.
+     * <p>This symbol is the offset where the {@link android.R.attr#focusable}
+     * attribute's value can be found in the {@link #View} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name android:focusable
+     */
+    public static final int View_android_focusable=1;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#theme}
+     * attribute's value can be found in the {@link #View} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name android:inflatedId
+     * @attr name android:theme
      */
-    public static final int ViewStubCompat_android_inflatedId=2;
+    public static final int View_android_theme=0;
+    /**
+     * <p>This symbol is the offset where the {@link com.boulderer.R.attr#paddingEnd}
+     * attribute's value can be found in the {@link #View} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.boulderer:paddingEnd
+     */
+    public static final int View_paddingEnd=2;
+    /**
+     * <p>This symbol is the offset where the {@link com.boulderer.R.attr#paddingStart}
+     * attribute's value can be found in the {@link #View} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.boulderer:paddingStart
+     */
+    public static final int View_paddingStart=3;
+    /**
+     * <p>This symbol is the offset where the {@link com.boulderer.R.attr#theme}
+     * attribute's value can be found in the {@link #View} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.boulderer:theme
+     */
+    public static final int View_theme=4;
   }
   public static final class xml {
     public static final int preferences=0x7f110000;
+    public static final int provider_paths=0x7f110001;
   }
 }

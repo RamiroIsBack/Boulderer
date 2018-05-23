@@ -4,7 +4,7 @@
             "outputFile": "/Users/osx/nativeB/boulderer/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-land/values-land.xml",
             "map": [
                 {
-                    "source": "/Users/osx/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/0623c3603085c0fb1e86d995ea56702a/res/values-land/values-land.xml",
+                    "source": "/Users/osx/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/96359b7aef850992b4911507ea624f00/res/values-land/values-land.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "/Users/osx/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/54ebadb9b8df4539ebc2a620c7925e75/res/values-land/values-land.xml",
+                    "source": "/Users/osx/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/a0d9bf50bb21a1788486d5413463ffba/res/values-land/values-land.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

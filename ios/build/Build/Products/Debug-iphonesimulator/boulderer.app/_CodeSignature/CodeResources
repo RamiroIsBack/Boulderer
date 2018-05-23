@@ -6,7 +6,48 @@
 	<dict>
 		<key>Base.lproj/LaunchScreen.nib</key>
 		<data>
-		Pgh1kOc/BaGW+qUcVugR2Px+WZA=
+		ffHVW/sJo+X7KRwyPx0UlLietv4=
+		</data>
+		<key>Frameworks/IDEBundleInjection.framework/IDEBundleInjection</key>
+		<data>
+		FHZwkJVcmz0wRoKSzRVlRo7LqVs=
+		</data>
+		<key>Frameworks/IDEBundleInjection.framework/Info.plist</key>
+		<data>
+		LxMbf5l1Y6KxTybY0QVdfOIO5kU=
+		</data>
+		<key>Frameworks/IDEBundleInjection.framework/_CodeSignature/CodeResources</key>
+		<data>
+		nSihaBKSW4sp31+ZAefaMpPQxlM=
+		</data>
+		<key>Frameworks/IDEBundleInjection.framework/version.plist</key>
+		<data>
+		zd8yH8C0GrJHWHJaiINm2ZEoAEk=
+		</data>
+		<key>Frameworks/XCTest.framework/Info.plist</key>
+		<data>
+		vaYGxV5xeNv3Xwbh9qrg229EZ5w=
+		</data>
+		<key>Frameworks/XCTest.framework/XCTest</key>
+		<data>
+		efk0+NiH4gdv7dBOwJwQxmBNNBk=
+		</data>
+		<key>Frameworks/XCTest.framework/_CodeSignature/CodeResources</key>
+		<data>
+		lzovnb8UeQa/mYKOjx9BKAGtaZY=
+		</data>
+		<key>Frameworks/XCTest.framework/en.lproj/InfoPlist.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			TuBj57ZP6zBqcL9HttO2Rucaw9E=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/XCTest.framework/version.plist</key>
+		<data>
+		yLUgLGsvOrTOJzFlbX+XYKXM31s=
 		</data>
 		<key>GoogleMaps.bundle/GMSCacheStorage.momd/Storage.mom</key>
 		<data>
@@ -680,7 +721,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		lkmHcOj2ytgI/WTHdeStJTDZb1s=
+		JUaW8lOZSOiJQX5V7FhUdBdHoUM=
 		</data>
 		<key>Ionicons.ttf</key>
 		<data>
@@ -690,6 +731,26 @@
 		<data>
 		n57qDP4tZfLD1rCS43W0B4LQjzE=
 		</data>
+		<key>PlugIns/bouldererTests.xctest.dSYM/Contents/Info.plist</key>
+		<data>
+		QmPzKzePKL4OjZMuokGZ1qXw3kg=
+		</data>
+		<key>PlugIns/bouldererTests.xctest.dSYM/Contents/Resources/DWARF/bouldererTests</key>
+		<data>
+		Le86kVlGrvwKd5IUln23Ntv9LZM=
+		</data>
+		<key>PlugIns/bouldererTests.xctest/Info.plist</key>
+		<data>
+		Fx89tX+KNgDH7B/Tzy0IBWUZS1k=
+		</data>
+		<key>PlugIns/bouldererTests.xctest/_CodeSignature/CodeResources</key>
+		<data>
+		J4lESc7m8YHC6M6wu6KGYH2t0PM=
+		</data>
+		<key>PlugIns/bouldererTests.xctest/bouldererTests</key>
+		<data>
+		xYHNasdP15QT1zKcFoZL9Pu4sh4=
+		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
@@ -697,11 +758,112 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Pgh1kOc/BaGW+qUcVugR2Px+WZA=
+			ffHVW/sJo+X7KRwyPx0UlLietv4=
 			</data>
 			<key>hash2</key>
 			<data>
-			7Qjasb3Cg84BdiEjxxcuHsr8ccIJt8Vk+jjdeRxTU/o=
+			nn2Pl9JnCxahcjmmnNSajRyzuRfa5KWzu3XK9unAiDA=
+			</data>
+		</dict>
+		<key>Frameworks/IDEBundleInjection.framework/IDEBundleInjection</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			FHZwkJVcmz0wRoKSzRVlRo7LqVs=
+			</data>
+			<key>hash2</key>
+			<data>
+			XEJmxymYtVGij8TlhvXFk5qiWqcUIwXuRdzt1n6V93Q=
+			</data>
+		</dict>
+		<key>Frameworks/IDEBundleInjection.framework/Info.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			LxMbf5l1Y6KxTybY0QVdfOIO5kU=
+			</data>
+			<key>hash2</key>
+			<data>
+			N4GVuJ5Z0JwchjiReHrYKP98YmS4esuSk6cDgCkAOiA=
+			</data>
+		</dict>
+		<key>Frameworks/IDEBundleInjection.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			nSihaBKSW4sp31+ZAefaMpPQxlM=
+			</data>
+			<key>hash2</key>
+			<data>
+			ALFQXB3ogINAqnKCpIqequEfOM14x6XidGbLr9VD5Lc=
+			</data>
+		</dict>
+		<key>Frameworks/IDEBundleInjection.framework/version.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			zd8yH8C0GrJHWHJaiINm2ZEoAEk=
+			</data>
+			<key>hash2</key>
+			<data>
+			xNtog5TiXEum66gXK9HFLae12gJNr9htsgT5IpuaXTI=
+			</data>
+		</dict>
+		<key>Frameworks/XCTest.framework/Info.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			vaYGxV5xeNv3Xwbh9qrg229EZ5w=
+			</data>
+			<key>hash2</key>
+			<data>
+			2fwUYftxc/VhgPPTJBC37kD9QWwXD2wgHSoRTkhAudY=
+			</data>
+		</dict>
+		<key>Frameworks/XCTest.framework/XCTest</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			efk0+NiH4gdv7dBOwJwQxmBNNBk=
+			</data>
+			<key>hash2</key>
+			<data>
+			vdUeZdPSQ7q5X6jmqcxQVWtexuol6KTqeyEGXo2UDNM=
+			</data>
+		</dict>
+		<key>Frameworks/XCTest.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			lzovnb8UeQa/mYKOjx9BKAGtaZY=
+			</data>
+			<key>hash2</key>
+			<data>
+			WIyahSej5U1IgbnBZBwcI/bTRlRSzKLXwi/7+QErA7s=
+			</data>
+		</dict>
+		<key>Frameworks/XCTest.framework/en.lproj/InfoPlist.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			TuBj57ZP6zBqcL9HttO2Rucaw9E=
+			</data>
+			<key>hash2</key>
+			<data>
+			89RGkjZaKuewYnjpzwhIswhqfrU8+pcEXqM/DHVrUmo=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/XCTest.framework/version.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			yLUgLGsvOrTOJzFlbX+XYKXM31s=
+			</data>
+			<key>hash2</key>
+			<data>
+			psn3f9GzyAkXmzTU+vf5xjnZ5KNVLj89BwSJrmxGCqc=
 			</data>
 		</dict>
 		<key>GoogleMaps.bundle/GMSCacheStorage.momd/Storage.mom</key>
@@ -2015,6 +2177,61 @@
 			<key>hash2</key>
 			<data>
 			u0dnmwuuuEgbf1HGitM65aUmc2y1CxcXzGD/a2X5CKM=
+			</data>
+		</dict>
+		<key>PlugIns/bouldererTests.xctest.dSYM/Contents/Info.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			QmPzKzePKL4OjZMuokGZ1qXw3kg=
+			</data>
+			<key>hash2</key>
+			<data>
+			qge7i0+4RyuJhECZmH6Cz7VDehW0eqHw7yjM2Fe7ZGk=
+			</data>
+		</dict>
+		<key>PlugIns/bouldererTests.xctest.dSYM/Contents/Resources/DWARF/bouldererTests</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Le86kVlGrvwKd5IUln23Ntv9LZM=
+			</data>
+			<key>hash2</key>
+			<data>
+			vfmkCFX68A6iBRunH0uuCzcW2X8Xhbtt6nU10IW/nm4=
+			</data>
+		</dict>
+		<key>PlugIns/bouldererTests.xctest/Info.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Fx89tX+KNgDH7B/Tzy0IBWUZS1k=
+			</data>
+			<key>hash2</key>
+			<data>
+			V5VDOWy0ZlgKtW0Y5eNxgLRiFBzxNeKR76uOlGYOMWc=
+			</data>
+		</dict>
+		<key>PlugIns/bouldererTests.xctest/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			J4lESc7m8YHC6M6wu6KGYH2t0PM=
+			</data>
+			<key>hash2</key>
+			<data>
+			NDyFgJLibdQptwi+H8GP/Vfv2CWFWnWOcSpw+IuhDNk=
+			</data>
+		</dict>
+		<key>PlugIns/bouldererTests.xctest/bouldererTests</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			xYHNasdP15QT1zKcFoZL9Pu4sh4=
+			</data>
+			<key>hash2</key>
+			<data>
+			WB+MlRT4u93DOS4382lFLA7OUNaPpV67awIzi5u+K+4=
 			</data>
 		</dict>
 	</dict>

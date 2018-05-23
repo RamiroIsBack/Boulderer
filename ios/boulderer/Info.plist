@@ -2,6 +2,14 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>elegir foto de la libreria</string>
+	<key>NSCameraUsageDescription</key>
+	<string>descripcion para la foto</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>comparte una foto!!</string>
+	<key>NSLocationUsageDescription</key>
+	<string>comparte tu ubicacion :)</string>
 	<key>UIAppFonts</key>
 	<array>
 		<string>Ionicons.ttf</string>
@@ -10,6 +18,8 @@
 	<string>en</string>
 	<key>CFBundleDisplayName</key>
 	<string>boulder more</string>
+	<key>LSApplicationCategoryType</key>
+	<string></string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
