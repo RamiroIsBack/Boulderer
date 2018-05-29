@@ -19,8 +19,12 @@ import HeadingText from '../UI/HeadingText';
 import MainText from '../UI/MainText';
 import ButtonWithBackground from '../UI/CustomButton';
 
+import loginMutation from '../../mutations/Login'
+
 import backgroundImage from '../../assets/knee_tatoo.jpg';
 import validate from '../../utility/validation';
+import {graphql} from 'react-apollo';
+import gql from 'graphql-tag';
 
 class AuthScreen extends Component {
   state = {
@@ -82,6 +86,7 @@ class AuthScreen extends Component {
         authMode: prevState.authMode === 'login'? 'signup' : 'login'
       };
     });
+    console.log(this.props);
   }
 
   updateInputState = (key, value) => {
@@ -270,4 +275,6 @@ const mapDispatchToProps = dispatch =>{
     onLogin : (authData) => dispatch(tryAuth(authData)),
   }
 }
-export default connect(null,mapDispatchToProps) (AuthScreen);
+
+
+export default connect(null,mapDispatchToProps) (graphql(loginMutation) (AuthScreen));
