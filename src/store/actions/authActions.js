@@ -1,8 +1,8 @@
 import actionTypes from './actionTypes';
 
-export const tryAuth = (authData) =>{
+export const tryAuth = (currentUser) =>{
   return{
     type: actionTypes.TRY_AUTH,
-    authData: authData
+    currentUser
   };
 };

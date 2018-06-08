@@ -1,13 +1,13 @@
 import React,{Component} from 'react';
 import {View,Text,Button, Image, ScrollView , StyleSheet} from 'react-native';
 import {connect} from 'react-redux';
-import {addPlace} from '../../store/actions';
-import HeadingText from '../UI/HeadingText';
-import MainText from '../UI/MainText';
-import PickImageContainer from '../containers/PickImageContainer';
-import PickLocationContanier from '../containers/PickLocationContainer';
-import PlaceInput from '../presentational/placeInput';
-import validate from '../../utility/validation'
+import {addPlace} from '../../../store/actions';
+import HeadingText from '../../UI/HeadingText';
+import MainText from '../../UI/MainText';
+import PickImageContainer from '../../containers/PickImageContainer';
+import PickLocationContanier from '../../containers/PickLocationContainer';
+import PlaceInput from '../../presentational/placeInput';
+import validate from '../../../utility/validation'
 
 class SharePlaceScreen extends Component {
   static navigatorStyle = {
@@ -101,11 +101,7 @@ class SharePlaceScreen extends Component {
         }
       }
     });
-    // this.props.onAddPlace(
-    //   this.state.controls.placeName.value,
-    //   this.state.controls.location.value,
-    //   this.state.controls.image.value
-    // )
+   
   }
 
   render(){

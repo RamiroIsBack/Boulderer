@@ -1,8 +1,8 @@
 import React, {Component} from 'react';
 import {TouchableOpacity, View,Text,StyleSheet,Animated} from 'react-native';
 import {connect} from 'react-redux'
-import {deletePlace} from '../../store/actions'
-import ShowPlacesContainer from '../containers/ShowPlacesContainer'
+import {deletePlace} from '../../../store/actions'
+import ShowPlacesContainer from '../../containers/ShowPlacesContainer'
 
 class FindPlaceScreen extends Component {
   static navigatorStyle = {
@@ -16,10 +16,10 @@ class FindPlaceScreen extends Component {
 
   constructor(props){
     super(props);
-    this.props.navigator.setOnNavigatorEvent(this.onNavigatiorEvent);
+    this.props.navigator.setOnNavigatorEvent(this.onNavigatorEvent);
   };
   
-  onNavigatiorEvent = (event) =>{
+  onNavigatorEvent = (event) =>{
     if(event.type === 'NavBarButtonPress'){
       if(event.id === 'sideDrowerToggle'){
         this.props.navigator.toggleDrawer({

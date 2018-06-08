@@ -6,7 +6,8 @@ const defaultInput = props => (
     underlineColorAndroid = 'transparent'
     {...props}
     style = {[
-      styles.input, props.style, props.valid || !props.touched ? null: styles.invalid
+      styles.input, props.style, props.valid || 
+      !props.touched ? null: styles.invalid
     ]}
   />
 
@@ -19,7 +20,7 @@ const styles = StyleSheet.create({
     padding:5,
     marginTop:8,
     marginBottom:8,
-    backgroundColor:'#ccc'
+    backgroundColor:'#ddd'
   },
   invalid:{
     borderColor:'red',
