@@ -4,7 +4,7 @@ export default gql`
   mutation addArea(
     $nombre: String,
     $comments:[String],
-    $photos: [String],
+    $photo: String,
     $description: String,
     $latitude:Float,
     $longitude: Float,
@@ -15,7 +15,7 @@ export default gql`
       nombre: $nombre,
       latitude:$latitude,
       longitude:$longitude,
-      photos:$photos,
+      photo:$photo,
       description: $description,
       userId:$userId   
       ){
@@ -24,7 +24,6 @@ export default gql`
       }
       nombre
       id
-      photos
     }
   }
 `;

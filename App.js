@@ -2,7 +2,7 @@ import { Navigation } from 'react-native-navigation';
 import {Provider} from 'react-redux';
 //Android API mapsKey: AIzaSyDmFLKpBo_cI2cGhkiygTSR7UI4C3hT544
 //IOS API mapsKey: AIzaSyBTr5rkEOzVq1yTdBEh-eDGmq-l35tSmrE
-import AuthScreen from './src/components/screens/primary/Auth';
+import AuthScreen from './src/components/screens/primary/AuthScreen';
 import SharePlaceScreen from './src/components/screens/secundary/SharePlace';
 import FindPlaceScreen from './src/components/screens/secundary/FindPlace';
 import PersonalScreen from './src/components/screens/primary/PersonalScreen';
@@ -14,6 +14,7 @@ import PlaceDetail from './src/components/screens/secundary/PlaceDetail';
 import SideDrower from './src/components/screens/SideDrower';
 import AddAreaScreen from './src/components/screens/secundary/AddAreaScreen';
 import AddProblemScreen from './src/components/screens/secundary/AddProblemScreen';
+import ErrorLightBox from './src/components/presentational/ErrorLightBox';
 
 import {startAuth} from './src/components/screens/startScreens';
 
@@ -86,6 +87,10 @@ Navigation.registerComponent(
 Navigation.registerComponent(
   'bloka.AddAreaScreen',
   () => apolloAndReduxProviderHOC(AddAreaScreen, client), store, Provider
+);
+Navigation.registerComponent(
+  'bloka.ErrorLightBox',
+  () => ErrorLightBox
 );
 // Start a App
 startAuth();

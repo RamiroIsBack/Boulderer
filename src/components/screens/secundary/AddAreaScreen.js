@@ -2,10 +2,13 @@ import React, {Component} from 'react';
 import {TouchableOpacity, View,Text,StyleSheet,Dimensions,ScrollView ,} from 'react-native';
 import DefaultInput from '../../UI/DefaultInput';
 import CustomButton from '../../UI/CustomButton';
+import PickLocationContanier from '../../containers/PickLocationContainer';
+import PickImageContainer from '../../containers/PickImageContainer';
 import {graphql} from 'react-apollo';
 import getAreasQuery from '../../../queries/GetAreas';
 import AddAreaMutation from '../../../mutations/AddArea'
 import gql from 'graphql-tag';
+import CurrentUser from '../../../queries/CurrentUser';
 
 class AddAreaScreen extends Component {
   
@@ -29,11 +32,12 @@ class AddAreaScreen extends Component {
         valid:false,
         touched:false,
       },
-      photo:{
+      image:{
         value:null,
         valid:false,
         touched:false,
-      }
+      },
+      errors:[]
     },
     viewMode: 'portrait',
     matches:null,
@@ -79,6 +83,7 @@ class AddAreaScreen extends Component {
             ...prevState.controls[key],
             value: val,
             touched:true,
+            valid: key==='description' && val.length>5? true : false ,
           }
         }
       }
@@ -89,8 +94,35 @@ class AddAreaScreen extends Component {
   
   };
   subirAreaHandler=()=>{
-    //if everything is allright upload!
-    //mutation here
+    this.props.mutate({
+      variables:{
+        nombre: this.state.controls.nombre.value,
+        description: this.state.controls.description.value,
+        latitude:this.state.controls.location.value.latitude,
+        longitude:this.state.controls.location.value.longitude,
+        photo:this.state.controls.image.value.base64,
+      },
+      refetchQueries:()=> [{query:getAreasQuery}]
+    }).catch(err=>{
+      const errors = err.graphQLErrors.map(err => err.message);
+      this.setState(prevState => {
+        return {
+          controls: {
+            ...prevState.controls,
+            errors: errors
+            }
+          }
+        }
+      );
+      console.log(this.state.controls.errors)
+    }).then((res)=>{
+      if(res){
+        console.log(res);
+        this.props.onLogin({
+         currentUser: res.data.login
+        })   
+      }
+    })
   }
   contained=(str1,str2)=>{ 
     
@@ -159,6 +191,34 @@ class AddAreaScreen extends Component {
       }
     });
   }
+
+  locationPickHandler = (location) =>{
+    this.setState (prevState=>{
+      return{
+        controls:{
+          ...prevState.controls,
+          location:{
+            value: location,
+            valid:true,
+          }
+        }
+      }
+    });
+  }
+  imagePickedHandler = (imagePicked)=>{
+    this.setState(prevState =>{
+      return{
+        controls:{
+          ...prevState.controls,
+          image:{
+            value:imagePicked,
+            valid:true
+          }
+        }
+      }
+    });
+   
+  }
   
   render(){
     return(
@@ -171,7 +231,7 @@ class AddAreaScreen extends Component {
               !this.state.controls.nombre.valid ||
               !this.state.controls.description.valid ||
               !this.state.controls.location.valid ||
-              !this.state.controls.photo.valid 
+              !this.state.controls.image.valid 
             }
           >
             Compartir nueva Area!!
@@ -187,39 +247,60 @@ class AddAreaScreen extends Component {
                   : styles.landscapeContainer
               ]}
           >
-            <View 
-              style={[
-                styles.section,
-                    this.state.viewMode === 'portrait'
-                      ? styles.portraitSection
-                      : styles.landscapeSection
-                  ]}
-            >  
+            
+            <View style={[styles.section,]}>  
               <View 
-                style= {styles.nombreBlock}
+                style={[
+                  styles.section,
+                      this.state.viewMode === 'portrait'
+                        ? styles.portraitSection
+                        : styles.landscapeSection
+                    ]}
               >  
+                <View style= {styles.nombreBlock} >  
+                    
+                  <View style= {styles.nombreInputContainer}> 
+                    <DefaultInput
+                      placeholder='nombre'
+                      style={styles.input}
+                      value={this.state.controls.nombre.value}
+                      onChangeText={val => this.updateInputState('nombre', val)}
+                      valid = {this.state.controls.nombre.valid}
+                      touched = {this.state.controls.nombre.touched}
+                    />
+                    
+                  </View>
+                </View>
+                <View style= {styles.listaNombresBlock}>  
                   
-                <View style= {styles.nombreInputContainer}> 
-                  <DefaultInput
-                    placeholder='nombre'
-                    style={styles.input}
-                    value={this.state.controls.nombre.value}
-                    onChangeText={val => this.updateInputState('nombre', val)}
-                    valid = {this.state.controls.nombre.valid}
-                    touched = {this.state.controls.nombre.touched}
-                  />
+                  {this.state.matches}
                   
                 </View>
+              </View> 
+
+              <View style= {styles.section}>   
+                <DefaultInput
+                  placeholder='descripcion'
+                  style={styles.input}
+                  value={this.state.controls.description.value}
+                  onChangeText={val => this.updateInputState('description', val)}
+                  valid = {this.state.controls.description.valid}
+                  touched = {this.state.controls.description.touched}
+                />
               </View>
-              <View style= {styles.listaNombresBlock}>  
-                
-                {this.state.matches}
-                 
+             
+              <View style= {styles.section}>
+                <PickImageContainer
+                  onImagePicked = {this.imagePickedHandler}
+                />
               </View>
             </View>
-            <View style= {styles.section2}>
-              
+            <View style= {styles.section}>
+              <PickLocationContanier
+              locationPickHandler= {this.locationPickHandler}
+              />
             </View>
+            
           </View>
         </ScrollView>
       </View>
@@ -243,11 +324,6 @@ const styles = StyleSheet.create({
   },
   section:{
     flex:1,
-    backgroundColor:'yellow'
-  },
-  section2:{
-    flex:1,
-    backgroundColor:'blue'
   },
   nombreBlock:{
     flex:1,
@@ -287,5 +363,7 @@ const styles = StyleSheet.create({
 });
 
 export default graphql (AddAreaMutation) (
-  graphql(getAreasQuery) (AddAreaScreen)
+  graphql(CurrentUser) (
+    graphql(getAreasQuery) (AddAreaScreen)
+  )
 );

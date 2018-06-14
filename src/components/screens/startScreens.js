@@ -95,7 +95,7 @@ export const startAuth = ()=>{
   Navigation.startSingleScreenApp({
     screen: {
       screen: 'bloka.AuthScreen',
-      title: 'Login'
+      title: 'Bienvenid@ :)'
     }
   });
 };

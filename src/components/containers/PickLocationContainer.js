@@ -76,7 +76,7 @@ class PickLocationContanier extends Component{
         </MapView>
       
         <View style = {styles.button}>
-          <Button onPress = {this.getLocationHandler} title = 'map me dude!' />
+          <Button onPress = {this.getLocationHandler} title = 'centrar mapa en mi localizacion' />
         </View>
       </View>
     );

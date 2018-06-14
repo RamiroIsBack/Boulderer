@@ -13,7 +13,7 @@ class PickImageContanier extends Component{
       if(res.didCancel){
         console.log('operacion de imagePicker cancelada por usuario');
       }else if (res.error){
-        console.log('error: ', res.erro);
+        console.log('error: ', res.error);
       }else{
         this.setState({
           pickedImage:{uri: res.uri}
