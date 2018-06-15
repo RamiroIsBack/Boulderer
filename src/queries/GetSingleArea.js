@@ -7,7 +7,10 @@ export default gql`
       latitude
       longitude
       nombre
-      photos{id}
+      photos{
+        id
+        img
+      }
       comments
       problems{
         nombre

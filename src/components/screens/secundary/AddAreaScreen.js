@@ -7,6 +7,7 @@ import PickImageContainer from '../../containers/PickImageContainer';
 import {graphql} from 'react-apollo';
 import getAreasQuery from '../../../queries/GetAreas';
 import AddAreaMutation from '../../../mutations/AddArea'
+import AddImgMutation from '../../../mutations/AddImg'
 import gql from 'graphql-tag';
 import CurrentUser from '../../../queries/CurrentUser';
 
@@ -100,7 +101,8 @@ class AddAreaScreen extends Component {
         description: this.state.controls.description.value,
         latitude:this.state.controls.location.value.latitude,
         longitude:this.state.controls.location.value.longitude,
-        photo:this.state.controls.image.value.base64,
+        img:this.state.controls.image.value.base64,
+        //data:this.state.controls.image.value.base64,
       },
       refetchQueries:()=> [{query:getAreasQuery}]
     }).catch(err=>{
@@ -118,9 +120,7 @@ class AddAreaScreen extends Component {
     }).then((res)=>{
       if(res){
         console.log(res);
-        this.props.onLogin({
-         currentUser: res.data.login
-        })   
+        
       }
     })
   }
@@ -363,7 +363,7 @@ const styles = StyleSheet.create({
 });
 
 export default graphql (AddAreaMutation) (
-  graphql(CurrentUser) (
-    graphql(getAreasQuery) (AddAreaScreen)
-  )
+  
+  graphql(getAreasQuery) (AddAreaScreen)
+  
 );

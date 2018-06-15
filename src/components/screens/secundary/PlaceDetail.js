@@ -78,11 +78,11 @@ class placeDetail extends Component {
       return <Text>Loading...</Text>
     }
     let image = null;
-    let imagesReady = false;
+    let imagesReady = true;
     if (imagesReady ===true){
       image= (
         <Image
-          source={this.props.selectedPlace.image}
+          source={{ uri: `data:image/jpeg;base64,${this.props.data.area.photos[0].img}` }} 
           style={styles.placeImage}
         />
       )
