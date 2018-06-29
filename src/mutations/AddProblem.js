@@ -3,22 +3,29 @@ import gql from 'graphql-tag';
 export default gql`
   mutation addProblemToArea(
     $nombre: String,
-    $photos: [String],
-    $content: String,
+    $line: String,
+    $img: String,
+    $description: String,
     $areaId: ID,
-    $userId: ID
+    $userId: ID,
+    $latitude:Float,
+    $longitude:Float
   ){
     addProblemToArea(
       nombre: $nombre,
-      photos:$photos,
-      content: $content,
+      img:$img,
+      line:$line,
+      description: $description,
       areaId:$areaId,
-      userId:$userId
+      userId:$userId,
+      latitude:$latitude,
+      longitude:$longitude
       ){
       user{
         email
       }
       id
+      nombre
     }
 
   }

@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import {connect} from 'react-redux';
 import {TouchableOpacity, View,Text,StyleSheet,Dimensions,ScrollView ,} from 'react-native';
 import DefaultInput from '../../UI/DefaultInput';
 import CustomButton from '../../UI/CustomButton';
@@ -7,9 +8,9 @@ import PickImageContainer from '../../containers/PickImageContainer';
 import {graphql} from 'react-apollo';
 import getAreasQuery from '../../../queries/GetAreas';
 import AddAreaMutation from '../../../mutations/AddArea'
-import AddImgMutation from '../../../mutations/AddImg'
-import gql from 'graphql-tag';
-import CurrentUser from '../../../queries/CurrentUser';
+
+import {contained} from '../../../utility/validation'
+
 
 class AddAreaScreen extends Component {
   
@@ -84,11 +85,14 @@ class AddAreaScreen extends Component {
             ...prevState.controls[key],
             value: val,
             touched:true,
-            valid: key==='description' && val.length>5? true : false ,
+            
           }
         }
       }
     });
+    if (key === 'description'){
+      this.validateFields(key,val.length>5? true : false )
+    }
     if(key ==='nombre'){
       this.areaRepeated(val);
     }
@@ -102,7 +106,7 @@ class AddAreaScreen extends Component {
         latitude:this.state.controls.location.value.latitude,
         longitude:this.state.controls.location.value.longitude,
         img:this.state.controls.image.value.base64,
-        //data:this.state.controls.image.value.base64,
+        userId: this.props.users.currentUser.id
       },
       refetchQueries:()=> [{query:getAreasQuery}]
     }).catch(err=>{
@@ -124,17 +128,7 @@ class AddAreaScreen extends Component {
       }
     })
   }
-  contained=(str1,str2)=>{ 
-    
-    var regexAnd=str2.toUpperCase().split("").join(")(?=.*");
-    var regexStr="^"+"(?=.*"+regexAnd+").*$";
-    
-    
-    var re = new RegExp(regexStr,"gm");
-
-    return re.test(str1.toUpperCase());
-
-  }
+  
   areaRepeated = (inputVal)=>{
     let inputName = inputVal;
     if(inputName && inputName.length>2 && !this.props.data.loading){
@@ -142,7 +136,7 @@ class AddAreaScreen extends Component {
       let check = false;
       for (i = 0; i < this.props.data.areas.length; i++) {
         let area = this.props.data.areas[i]
-        let result = this.contained(area.nombre, inputName);
+        let result = contained(area.nombre, inputName);
         if(result){
           matches.push(
             <View style= {styles.formerAreaContainer}
@@ -178,7 +172,9 @@ class AddAreaScreen extends Component {
       if(!this.state.controls.nombre.valid){
         this.validateFields('nombre',true);
       }
-      this.setState({matches:null});
+      if(this.state.matches !==null){
+        this.setState({matches:null});
+      }
     }
     
   }
@@ -361,9 +357,13 @@ const styles = StyleSheet.create({
     
   }
 });
-
-export default graphql (AddAreaMutation) (
-  
-  graphql(getAreasQuery) (AddAreaScreen)
-  
+mapStateToProps= state => {
+  return{
+    users:state.users
+  };
+};
+export default connect(mapStateToProps,null) (
+  graphql (AddAreaMutation) (
+    graphql(getAreasQuery) (AddAreaScreen)
+  )
 );

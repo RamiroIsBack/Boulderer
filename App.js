@@ -11,10 +11,15 @@ import MapaScreen from './src/components/screens/primary/MapaScreen';
 import BuscarScreen from './src/components/screens/primary/BuscarScreen';
 import CompartirScreen from './src/components/screens/primary/CompartirScreen';
 import PlaceDetail from './src/components/screens/secundary/PlaceDetail';
+import ProblemDetail from './src/components/screens/secundary/ProblemDetail';
+
 import SideDrower from './src/components/screens/SideDrower';
 import AddAreaScreen from './src/components/screens/secundary/AddAreaScreen';
 import AddProblemScreen from './src/components/screens/secundary/AddProblemScreen';
 import ErrorLightBox from './src/components/presentational/ErrorLightBox';
+import DeleteAreaLightBox from './src/components/presentational/DeleteAreaLightBox';
+import AreaSelectionLightBox from './src/components/presentational/AreaSelectionLightBox';
+import ProblemSketchModal from './src/components/presentational/ProblemSketchModal';
 
 import {startAuth} from './src/components/screens/startScreens';
 
@@ -23,13 +28,6 @@ import apolloAndReduxProviderHOC from './src/utility/Hoc'
 //https://blog.beeaweso.me/using-apollo-client-2-0-with-redux-in-wix-react-native-navigation-8aa9590d4ea1
 import ApolloClient, {HttpLink, InMemoryCache}  from "apollo-boost";
 
-
-// const httpLink = new HttpLink({
-//   uri: 'http://localhost:4000/graphql',
-//   opts: {
-//     credentials: 'same-origin'
-//   }
-// })
 
 const client = new ApolloClient({
   //link: httpLink,
@@ -73,6 +71,11 @@ Navigation.registerComponent (
   
 );
 Navigation.registerComponent (
+  'bloka.ProblemDetailScreen',
+  ()=> apolloAndReduxProviderHOC(ProblemDetail, client), store, Provider
+  
+);
+Navigation.registerComponent (
   'bloka.SideDrower',
   ()=> apolloAndReduxProviderHOC (SideDrower,client) , store, Provider
 );
@@ -92,5 +95,21 @@ Navigation.registerComponent(
   'bloka.ErrorLightBox',
   () => ErrorLightBox
 );
+Navigation.registerComponent(
+  'bloka.DeleteAreaLightBox',
+  () => apolloAndReduxProviderHOC(DeleteAreaLightBox, client), store, Provider
+);
+
+Navigation.registerComponent(
+  'bloka.AreaSelectionLightBox',
+  () => apolloAndReduxProviderHOC(AreaSelectionLightBox, client), store, Provider
+);
+
+Navigation.registerComponent(
+  'bloka.ProblemSketchLightBox',
+  () => apolloAndReduxProviderHOC(ProblemSketchModal, client), store, Provider
+);
+
+
 // Start a App
 startAuth();

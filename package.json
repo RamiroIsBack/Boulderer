@@ -19,6 +19,7 @@
     "preset": "react-native"
   },
   "dependencies": {
+    "@terrylinla/react-native-sketch-canvas": "^0.5.0",
     "apollo-boost": "^0.1.6",
     "eslint": "^4.19.1",
     "graphql": "^0.13.2",

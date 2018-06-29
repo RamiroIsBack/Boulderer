@@ -3,6 +3,7 @@ import gql from 'graphql-tag'
 export default gql`
   query getSingleArea( $areaId: ID! ){
     area( id:$areaId ){
+      id
       description
       latitude
       longitude
@@ -14,7 +15,7 @@ export default gql`
       comments
       problems{
         nombre
-        photos
+        
         likes
         description
         latitude
@@ -22,6 +23,7 @@ export default gql`
         id
       }
       user{
+        id
         nombre
       }
     }

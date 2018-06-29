@@ -137,6 +137,8 @@ android {
 }
 
 dependencies {
+    compile project(':react-native-maps')
+    compile project(':@terrylinla/react-native-sketch-canvas')
     compile fileTree(dir: "libs", include: ["*.jar"])
     compile "com.android.support:appcompat-v7:23.0.1"
     compile "com.facebook.react:react-native:+"  // From node_modules
@@ -146,6 +148,7 @@ dependencies {
     compile "com.facebook.react:react-native:+"  // From node_modules
     compile project(':react-native-navigation')
     compile project(':react-native-image-picker')
+    compile project(':react-native-svg')
     
     implementation(project(':react-native-maps')){
         exclude group: 'com.google.android.gms', module: 'play-services-base'

@@ -1,3 +1,5 @@
+// https://stackoverflow.com/questions/44429798/compressing-base64-encoded-images-in-react-native-on-android-does-not-recognise
+
 export function compressPhoto(photo) {
   return new Promise((resolve, reject) => {
   

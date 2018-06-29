@@ -1,4 +1,5 @@
 import React , {Component} from 'react';
+import {Navigation} from 'react-native-navigation';
 import {
   View,
   Image,
@@ -17,7 +18,7 @@ import currentUserQuery from '../../../queries/CurrentUser';
 import getSingleAreaQuery from '../../../queries/GetSingleArea';
 
 import { deletePlace } from '../../../store/actions';
-import MapView from 'react-native-maps';
+import MapView, { Marker , Callout} from 'react-native-maps';
 
 class placeDetail extends Component {
   state = {
@@ -40,36 +41,66 @@ class placeDetail extends Component {
   };
 
   placeDeletedHandler = () => {
-    console.log(this.props)
-    this.props.mutate({
-      variables:{
-        nombre: this.props.selectedPlace.name,
-        content: this.props.selectedPlace.location.longitude+' - '+this.props.selectedPlace.location.latitude,
-        photos: this.props.selectedPlace.image,
-        areaId: '5b152c08e6123c0251d9270b',
-        userId: '5b0812428e378f1474d02d02' ,
+    for (let problem in this.props.data.area.problems) {
 
-      },
-      //refetchQueries:()=> [{query:currentUserQuery}]
-    }).catch(err=>{
-      const errors = err.graphQLErrors.map(err => err.message);
-      console.log(errors);
-    })
-    //variables
-// {
-//   "nombre": "prueba",
-//   "content": "q t cagas",
-//   "photos": "ddddddddddddddd",
-//   "areaId":"5b152c08e6123c0251d9270b",
-// 	"userId":"5b0812428e378f1474d02d02",
-// }
-    console.log(
+      if (problem.userId !== this.props.users.currentUser.id){
+        alert ('no puedes eliminar la zona. otros escaladores han subido bloques. Ahora pertenece al mundo :P')
+        return false;
+      }
+    }
+    Navigation.showLightBox({
+      screen: 'bloka.DeleteAreaLightBox', // unique ID registered with Navigation.registerScreen
+      passProps: {areaId: this.props.data.area.id}, // simple serializable object that will pass as props to the lightbox (optional)
+      style: {
+        backgroundBlur: 'light', // 'dark' / 'light' / 'xlight' / 'none' - the type of blur on the background
+        //backgroundColor: 'rgba(255, 255, 255, 0.1)', // tint color for the background, you can specify alpha here (optional)
+        tapBackgroundToDismiss: true // dismisses LightBox on background taps (optional)
+      }
+    });
+
       
-      this.props.selectedPlace.location
-      )
-    // this.props.onDeletePlace(this.props.selectedPlace.key);
-    // this.props.navigator.pop();
   };
+  goToEditHandler= () =>{
+    //do that 
+  }
+  giveMeUserOptions= ()=>{
+    if(this.props.users.currentUser){
+      if(this.props.users.currentUser.id === this.props.data.area.user.id){
+        return(
+          <View style = {styles.editButtons}>
+            <TouchableOpacity onPress={this.placeDeletedHandler} >
+              <View style={styles.deleteButton}>
+                <Icon
+                  size={30}
+                  name={Platform.OS === 'android' ? 'md-trash' : 'ios-trash'}
+                  color='red'
+                  />
+              </View>
+            </TouchableOpacity>
+
+            <TouchableOpacity onPress={this.goToEditHandler}>
+              <View style={styles.deleteButton}>
+                <Icon
+                  size={30}
+                  name={Platform.OS === 'android' ? 'md-trash' : 'ios-trash'}
+                  color='red'
+                  />
+              </View>
+            </TouchableOpacity>
+          </View>
+        )
+      }
+    }
+  }
+  callOutPressHandler=(id,nombre)=>{
+    this.props.navigator.push({
+      screen:'bloka.ProblemDetailScreen',
+      title: nombre,
+      passProps:{
+        problemId: id
+      }
+    });
+  }
   render() {
     if(!this.props.data){
       return;
@@ -77,16 +108,13 @@ class placeDetail extends Component {
     if(this.props.data.loading){
       return <Text>Loading...</Text>
     }
-    let image = null;
-    let imagesReady = true;
-    if (imagesReady ===true){
-      image= (
+    
+    let image= (
         <Image
           source={{ uri: `data:image/jpeg;base64,${this.props.data.area.photos[0].img}` }} 
           style={styles.placeImage}
         />
-      )
-    }
+    );
     problemMarkers = null;
     if (this.props.data.area.problems.length !==0){
       problemMarkers = (
@@ -151,15 +179,7 @@ class placeDetail extends Component {
             </Text>
           </View>
           <View>
-            <TouchableOpacity onPress={this.placeDeletedHandler}>
-              <View style={styles.deleteButton}>
-                <Icon
-                  size={30}
-                  name={Platform.OS === 'android' ? 'md-trash' : 'ios-trash'}
-                  color='red'
-                />
-              </View>
-            </TouchableOpacity>
+            {this.giveMeUserOptions()}
           </View>
         </View>
       </View>
@@ -194,8 +214,15 @@ const styles = StyleSheet.create({
   map: {
     ...StyleSheet.absoluteFillObject
   },
+  editButtons:{
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent:'center'
+    
+  },
   deleteButton: {
-    alignItems: 'center'
+    alignItems: 'center',
+    padding:10,
   },
   subContainer: {
     flex: 1
@@ -208,6 +235,11 @@ const styles = StyleSheet.create({
   }
 });
 
+mapStateToProps= state => {
+  return{
+    users:state.users
+  };
+};
 const mapDispatchToProps = dispatch => {
   return {
     onDeletePlace: (key) => dispatch(deletePlace(key)),
@@ -215,8 +247,8 @@ const mapDispatchToProps = dispatch => {
   };
 };
 
-export default connect(null, mapDispatchToProps)(
-  graphql(currentUserQuery) (
-    graphql(getSingleAreaQuery)(placeDetail)
-  )
+export default connect(mapStateToProps, mapDispatchToProps)(
+  
+  graphql(getSingleAreaQuery)(placeDetail)
+  
 );

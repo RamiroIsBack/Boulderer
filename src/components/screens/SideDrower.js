@@ -14,10 +14,10 @@ class SideDrower extends Component {
     this.props.mutate({
       refetchQueries:()=> [{query:currentUserQuery}]
     }).then(()=>{
+      this.props.onLogin(null);
       this.props.navigator.toggleDrawer({
         side:'left',
-        animated: true,
-        
+        animated: true,  
       });
     })
   }

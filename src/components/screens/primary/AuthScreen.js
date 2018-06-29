@@ -3,9 +3,6 @@ import {graphql} from 'react-apollo';
 import currentUserQuery from '../../../queries/CurrentUser';
 import {
   View,
-  Text,
-  Button,
-  TextInput,
   StyleSheet,
   ImageBackground,
   Dimensions,

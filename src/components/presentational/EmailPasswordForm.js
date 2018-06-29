@@ -3,7 +3,7 @@ import {View, Text , StyleSheet, } from 'react-native';
 import DefaultInput from '../UI/DefaultInput';
 import ButtonWithBackground from '../UI/CustomButton';
 
-import validate from '../../utility/validation';
+import {validate} from '../../utility/validation';
 
 class emailPasswordForm extends Component{
   state = {

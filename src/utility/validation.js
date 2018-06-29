@@ -1,4 +1,4 @@
-const validate = (val, rules) => {
+export const validate = (val, rules) => {
   let isValid = true;
   for (let rule in rules) {
     switch (rule) {
@@ -36,4 +36,15 @@ const notEmptyValidator = val =>{
 }
 
 
-export default validate;
+export const contained=(str1,str2)=>{ 
+    
+  var regexAnd=str2.toUpperCase().split("").join(")(?=.*");
+  var regexStr="^"+"(?=.*"+regexAnd+").*$";
+  
+  
+  var re = new RegExp(regexStr,"gm");
+
+  return re.test(str1.toUpperCase());
+
+}
+

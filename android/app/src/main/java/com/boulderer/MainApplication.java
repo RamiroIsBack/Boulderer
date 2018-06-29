@@ -3,11 +3,14 @@ package com.boulderer;
 import android.app.Application;
 
 import com.facebook.react.ReactApplication;
+import com.airbnb.android.react.maps.MapsPackage;
+import com.terrylinla.rnsketchcanvas.SketchCanvasPackage;
 import com.facebook.react.ReactNativeHost;
 import com.facebook.react.ReactPackage;
 import com.facebook.react.shell.MainReactPackage;
 import com.facebook.soloader.SoLoader;
 import com.imagepicker.ImagePickerPackage; // <-- add this import
+import com.terrylinla.rnsketchcanvas.SketchCanvasPackage;
 
 import java.util.Arrays;
 import java.util.List;
@@ -28,6 +31,8 @@ public class MainApplication extends NavigationApplication {
   //   protected List<ReactPackage> getPackages() {
   //     return Arrays.<ReactPackage>asList(
   //         new MainReactPackage(),
+            new MapsPackage(),
+            new SketchCanvasPackage(),
   //         new VectorIconsPackage()
   //     );
   //   }
@@ -62,7 +67,8 @@ public class MainApplication extends NavigationApplication {
         new VectorIconsPackage(),
         new MainReactPackage(),
         new MapsPackage(),
-        new ImagePickerPackage() // <-- add this line
+        new ImagePickerPackage(), // <-- add this line
+        new SketchCanvasPackage()
       );
   }
 
