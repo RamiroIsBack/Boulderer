@@ -70,8 +70,8 @@ class PickLocationContanier extends Component{
           style= {styles.map}
           initialRegion={this.state.focusedLocation}
           onPress = {this.pickLocationHandler}
-          ref = {ref => this.mapRef = ref}
-        >
+          ref = {ref => this.mapRef = ref}>
+          
           {marker}
         </MapView>
       

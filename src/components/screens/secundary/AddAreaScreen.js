@@ -145,8 +145,7 @@ class AddAreaScreen extends Component {
               <TouchableOpacity 
                 onPress= {()=>this.gotoFormerArea(
                   area.id, area.nombre
-                )}
-              >
+                )}>
                 <Text>{area.nombre}</Text>
               </TouchableOpacity>
 
@@ -228,8 +227,7 @@ class AddAreaScreen extends Component {
               !this.state.controls.description.valid ||
               !this.state.controls.location.valid ||
               !this.state.controls.image.valid 
-            }
-          >
+            }>
             Compartir nueva Area!!
           </CustomButton>
           />
@@ -241,8 +239,7 @@ class AddAreaScreen extends Component {
                 this.state.viewMode === 'portrait'
                   ? styles.portraitContainer
                   : styles.landscapeContainer
-              ]}
-          >
+              ]}>
             
             <View style={[styles.section,]}>  
               <View 
@@ -251,9 +248,8 @@ class AddAreaScreen extends Component {
                       this.state.viewMode === 'portrait'
                         ? styles.portraitSection
                         : styles.landscapeSection
-                    ]}
-              >  
-                <View style= {styles.nombreBlock} >  
+                    ]}>  
+                <View style= {styles.nombreBlock}>  
                     
                   <View style= {styles.nombreInputContainer}> 
                     <DefaultInput

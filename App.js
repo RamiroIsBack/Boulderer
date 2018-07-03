@@ -31,7 +31,7 @@ import ApolloClient, {HttpLink, InMemoryCache}  from "apollo-boost";
 
 const client = new ApolloClient({
   //link: httpLink,
-  uri: 'http://localhost:4000/graphql',
+  uri: 'http://46.101.215.208:4000/graphql',
   cache: new InMemoryCache({dataIdFromObject: o => o.id})
 });
 const store = configureStore();

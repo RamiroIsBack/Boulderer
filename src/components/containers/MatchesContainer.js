@@ -79,7 +79,9 @@ class MatchesContainer extends Component {
   render(){
    
     return(
-      this.state.matches
+      <View>
+      {this.state.matches}
+      </View>
     );
   }
 }

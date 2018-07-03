@@ -73,13 +73,11 @@ class MapaScreen extends Component {
             description={area.description}
             image={require('../../../assets/climbing-2.png')}
             key= {area.id}
-            id = {area.id}
-            >
+            id = {area.id}>
             <Callout>
               <TouchableOpacity 
                 onPress= {()=>this.callOutPressHandler(area.id,area.nombre)}
-                id= {area.id}
-              >
+                id= {area.id}>
                 <View style={styles.calloutText}>
                   <Text style= {styles.areaName}>{area.nombre}</Text>
                   <Text>{area.description}</Text>
@@ -96,9 +94,7 @@ class MapaScreen extends Component {
       <View style= {styles.mapContainer}>
         <MapView
               initialRegion={this.state.region}
-              style={styles.map}
-              
-        >
+              style={styles.map}>
           {markers}
         </MapView>
       </View>
@@ -108,7 +104,7 @@ class MapaScreen extends Component {
 }
 const styles = StyleSheet.create({
   mapContainer:{
-    flex:1,  
+   flex:1
   },
   map: {
     ...StyleSheet.absoluteFillObject

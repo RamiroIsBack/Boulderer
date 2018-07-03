@@ -56,10 +56,7 @@ class CompartirScreen extends Component {
     return(
       <View style = {styles.buttonContainer}>
         
-      >
-        <TouchableOpacity 
-          onPress= {()=>this.selectionHandler(title)}
-        >
+        <TouchableOpacity onPress= {()=>this.selectionHandler(title)}>
           <View style = {styles.searchButtonContainer}>
             <Text style = {styles.searchButtonText}>{title}</Text>
           </View>
@@ -77,8 +74,7 @@ class CompartirScreen extends Component {
           this.state.viewMode === 'portrait'
             ? styles.portraitContainer
             : styles.landscapeContainer
-        ]}
-      >
+        ]}>
         <View style= {styles.section}>
           {this.buttonAnime('Area')}
         </View>

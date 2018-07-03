@@ -84,10 +84,13 @@ class AuthScreen extends Component {
     )
     }
     let wholeForm = null;
-    if (!this.props.data.loading){
-      if (!this.props.data.currentUser ){
-        wholeForm= (
-          
+    if (this.props.data && !this.props.data.loading){
+      if (this.props.data.currentUser){
+        console.log('sacame de aqui wey!')
+        startMainTabs();
+        this.props.logedIn(this.props.data.currentUser);
+      }else{
+        wholeForm= (   
           <KeyboardAvoidingView 
             style={styles.container}
             behavior = 'padding'
@@ -118,10 +121,6 @@ class AuthScreen extends Component {
           
           </KeyboardAvoidingView> 
         )   
-      }else{
-        console.log('sacame de aqui wey!')
-        startMainTabs();
-        this.props.logedIn(this.props.data.currentUser);
       }
     }
     return(
