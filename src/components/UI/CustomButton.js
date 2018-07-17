@@ -13,9 +13,7 @@ const buttonWhithBackground = (props) =>{
       ]}
     >
       <Text
-        style= {props.disabled? styles.disabledText : null }
-      >
-      {props.children}</Text>
+      style= {props.disabled? styles.disabledText : null }>{props.message}</Text>
     </View>
   );
 

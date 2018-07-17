@@ -227,10 +227,9 @@ class AddAreaScreen extends Component {
               !this.state.controls.description.valid ||
               !this.state.controls.location.valid ||
               !this.state.controls.image.valid 
-            }>
-            Compartir nueva Area!!
+            }
+            message = 'Compartir nueva Area!!'>
           </CustomButton>
-          />
         </View>
         <ScrollView>
           <View

@@ -7,12 +7,14 @@ export default gql`
         img
         line
         date
+        id
       }
       likes
       description
       latitude
       longitude
       nombre
+      id
       user{
         id
       }

@@ -225,21 +225,19 @@ class AddProblemScreen extends Component {
     if(this.state.controls.lineImage.valid){
       imageSituation = (
         <ImageOnTopContainer
-          image = {this.state.controls.image.value.base64}
-          lineImage = {this.state.controls.lineImage.value}
-        />
+        image = {this.state.controls.image.value.base64}
+        lineImage = {this.state.controls.lineImage.value}/>
       );
       //TODO:: no me convence, elegir otra foto Button
     }
     if (this.state.controls.areaId.valid){
       matches= (
         <MatchesContainer
-          areaId = {this.state.controls.areaId.value}
-          inputVal = {this.state.controls.nombre.value}
-          nombreValid = {this.state.controls.nombre.valid}
-          validateFields = {this.validateFields}
-          navigator = {this.props.navigator}
-        />
+        areaId = {this.state.controls.areaId.value}
+        inputVal = {this.state.controls.nombre.value}
+        nombreValid = {this.state.controls.nombre.valid}
+        validateFields = {this.validateFields}
+        navigator = {this.props.navigator}/>
       );
     }
     return(
@@ -256,10 +254,8 @@ class AddProblemScreen extends Component {
               !this.state.controls.image.valid ||
               !this.state.controls.lineImage.valid
             }
-          >
-            Compartir nuevo bloke!!
+            message = 'Compartir nuevo bloke!!'>
           </CustomButton>
-          />
         </View>
         <ScrollView>
           <View
@@ -269,14 +265,13 @@ class AddProblemScreen extends Component {
                   ? styles.portraitContainer
                   : styles.landscapeContainer
               ]}
-          >
-            
+          > 
             <View style={styles.section}>  
               <TouchableOpacity 
                   onPress= {this.openAreaSelection}
               >
                 <View style= {styles.areaSelectionContainer}>
-                  <Text>{this.state.controls.areaId.nombre}  </Text>
+                  <Text>{this.state.controls.areaId.nombre}</Text>
                   <Icon
                     size={30}
                     name={Platform.OS === 'android' ? 'md-arrow-dropdown' : 'ios-arrow-dropdown'}
@@ -301,8 +296,7 @@ class AddProblemScreen extends Component {
                       value={this.state.controls.nombre.value}
                       onChangeText={val => this.updateInputState('nombre', val)}
                       valid = {this.state.controls.nombre.valid}
-                      touched = {this.state.controls.nombre.touched}
-                    />
+                      touched = {this.state.controls.nombre.touched}/>
                     
                   </View>
                 </View>
@@ -320,8 +314,7 @@ class AddProblemScreen extends Component {
                   value={this.state.controls.description.value}
                   onChangeText={val => this.updateInputState('description', val)}
                   valid = {this.state.controls.description.valid}
-                  touched = {this.state.controls.description.touched}
-                />
+                  touched = {this.state.controls.description.touched}/>
               </View>
              
               <View style= {styles.section}>
@@ -330,8 +323,7 @@ class AddProblemScreen extends Component {
             </View>
             <View style= {styles.section}>
               <PickLocationContanier
-              locationPickHandler= {this.locationPickHandler}
-              />
+              locationPickHandler= {this.locationPickHandler}/>
             </View>
             
           </View>
