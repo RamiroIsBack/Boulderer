@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {View,Text} from 'react-native';
-
+import SearchScreen from '../secundary/SearchScreen'
 class BuscarScreen extends Component {
   static navigatorStyle = {
     navBarButtonColor : 'blue'
@@ -29,7 +29,8 @@ class BuscarScreen extends Component {
   render(){
     return(
       <View>
-        <Text>BuscarScreen</Text>
+        <SearchScreen
+        navigator= {this.props.navigator}/>
       </View>
 
     );
