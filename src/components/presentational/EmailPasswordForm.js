@@ -150,8 +150,8 @@ class emailPasswordForm extends Component{
               !this.state.controls.password.valid ||
               !this.state.controls.nombre.valid && this.props.authMode ==='signup'
             }
+            message= 'a blokar!'
           >
-            a blokar!
           </ButtonWithBackground>
         </View>
       </View>

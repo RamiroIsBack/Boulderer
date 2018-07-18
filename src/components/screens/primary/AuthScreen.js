@@ -38,6 +38,13 @@ class AuthScreen extends Component {
   componentWillUnmount() {
     Dimensions.removeEventListener('change', this.updateStyles);
   }
+  componentDidUpdate(){
+    if(!this.props.users.currentUser && this.props.data.currentUser){
+      console.log('sacame de aqui wey!');
+      startMainTabs();
+      this.props.logedIn(this.props.data.currentUser);
+    }
+  }
   
   updateStyles = dims => {
     this.setState({
@@ -47,6 +54,7 @@ class AuthScreen extends Component {
 
   logedIn = currentUser =>{
     this.props.logedIn({ currentUser })  //both signup and login
+    startMainTabs();
   }
 
   swithcAuthModeHandler = () =>{
@@ -85,11 +93,7 @@ class AuthScreen extends Component {
     }
     let wholeForm = null;
     if (this.props.data && !this.props.data.loading){
-      if (this.props.data.currentUser){
-        console.log('sacame de aqui wey!')
-        startMainTabs();
-        this.props.logedIn(this.props.data.currentUser);
-      }else{
+      if (!this.props.data.currentUser){
         wholeForm= (   
           <KeyboardAvoidingView 
             style={styles.container}
@@ -161,7 +165,11 @@ const styles = StyleSheet.create({
     fontSize:18,
   }
 })
-
+mapStateToProps= state => {
+  return{
+    users:state.users
+  };
+};
 const mapDispatchToProps = dispatch =>{
   return{
     logedIn : (currentUser) => dispatch(tryAuth(currentUser)),
@@ -169,7 +177,7 @@ const mapDispatchToProps = dispatch =>{
 }
 
 
-export default connect(null,mapDispatchToProps) (
+export default connect(mapStateToProps,mapDispatchToProps) (
   
     graphql(currentUserQuery) (AuthScreen)
   

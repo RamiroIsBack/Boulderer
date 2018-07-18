@@ -28,8 +28,8 @@ const ErrorLightBox = props => {
           <CustomButton 
             color='#29aaf4' 
             onPress={()=>{errorHandler('bloke')}}
+            message = 'editar bloke'
           >
-          editar bloke
           </CustomButton>
         </View>
       )
@@ -47,8 +47,8 @@ const ErrorLightBox = props => {
           <CustomButton 
             color='#29aaf4' 
             onPress={()=>{errorHandler('noUser')}}
+            message ='entrar'
           >
-          entrar
           </CustomButton>
         </View>
       )

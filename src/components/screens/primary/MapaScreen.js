@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
-import {View,Text,StyleSheet,Dimensions,TouchableOpacity } from 'react-native';
+import {View,Text,StyleSheet,Dimensions,TouchableOpacity,Platform } from 'react-native';
+import {Navigation} from 'react-native-navigation';
 import {graphql} from 'react-apollo';
 import getAreasQuery from '../../../queries/GetAreas';
 
@@ -49,8 +50,7 @@ class MapaScreen extends Component {
     }
   };
 
-  callOutPressHandler = (id,nombre) =>{
-    
+  goToAreaHandler = (id,nombre) =>{
     this.props.navigator.push({
       screen:'bloka.PlaceDetailScreen',
       title: nombre,
@@ -58,7 +58,14 @@ class MapaScreen extends Component {
         areaId: id
       }
     });
-  
+  }
+  workaroundForAndroid = (areaId,areaNombre) =>{
+    if(Platform.OS === 'android'){
+      this.goToAreaHandler(areaId,areaNombre)
+        
+    }else{
+      //IOS gets the clic on the Callout directly
+    }
   }
   
   render(){
@@ -73,10 +80,11 @@ class MapaScreen extends Component {
             description={area.description}
             image={require('../../../assets/climbing-2.png')}
             key= {area.id}
-            id = {area.id}>
+            id = {area.id}
+            onPress= {()=>this.workaroundForAndroid(area.id,area.nombre)}>
             <Callout>
-              <TouchableOpacity 
-                onPress= {()=>this.callOutPressHandler(area.id,area.nombre)}
+              <TouchableOpacity
+                onPress= {()=>this.goToAreaHandler(area.id,area.nombre)}
                 id= {area.id}>
                 <View style={styles.calloutText}>
                   <Text style= {styles.areaName}>{area.nombre}</Text>

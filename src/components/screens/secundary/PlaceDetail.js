@@ -101,6 +101,14 @@ class placeDetail extends Component {
       }
     });
   }
+  workaroundForAndroid = (areaId,areaNombre) =>{
+    if(Platform.OS === 'android'){
+      this.callOutPressHandler(areaId,areaNombre)
+        
+    }else{
+      //IOS gets the clic on the Callout no problem
+    }
+  }
   render() {
     if(!this.props.data){
       return;
@@ -126,7 +134,7 @@ class placeDetail extends Component {
           image={require('../../../assets/climbing-2.png')}
           key= {problem.id}
           id = {problem.id}
-          >
+          onPress= {()=>this.workaroundForAndroid(problem.id,problem.nombre)}>
           <Callout>
             <TouchableOpacity onPress= {()=>this.callOutPressHandler(problem.id,problem.nombre)}
               
