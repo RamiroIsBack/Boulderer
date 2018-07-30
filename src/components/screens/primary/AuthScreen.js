@@ -10,7 +10,7 @@ import {
   TouchableWithoutFeedback,
   KeyboardAvoidingView,
 } from 'react-native';
-import RadioForm, {RadioButton, RadioButtonInput, RadioButtonLabel} from 'react-native-simple-radio-button';
+import RadioForm from 'react-native-simple-radio-button';
 import backgroundImage from '../../../assets/auth_pic3.png';
 //import backgroundImage from '../../../assets/knee_tatoo.jpg';
 import {connect} from 'react-redux';

@@ -20,6 +20,7 @@ import ErrorLightBox from './src/components/presentational/ErrorLightBox';
 import DeleteAreaLightBox from './src/components/presentational/DeleteAreaLightBox';
 import AreaSelectionLightBox from './src/components/presentational/AreaSelectionLightBox';
 import ProblemSketchModal from './src/components/presentational/ProblemSketchModal';
+import SpinnerModal from './src/components/presentational/SpinnerModal';
 
 import {startAuth} from './src/components/screens/startScreens';
 
@@ -94,6 +95,10 @@ Navigation.registerComponent(
 Navigation.registerComponent(
   'bloka.ErrorLightBox',
   () => ErrorLightBox
+);
+Navigation.registerComponent(
+  'bloka.SpinnerModal',
+  () => SpinnerModal
 );
 Navigation.registerComponent(
   'bloka.DeleteAreaLightBox',

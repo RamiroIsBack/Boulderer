@@ -8,8 +8,10 @@ import PickImageContainer from '../../containers/PickImageContainer';
 import {graphql} from 'react-apollo';
 import getAreasQuery from '../../../queries/GetAreas';
 import AddAreaMutation from '../../../mutations/AddArea'
+import {Navigation} from 'react-native-navigation';
+import {filterList} from '../../../utility/validation'
+import {startMainTabs} from '../startScreens';
 
-import {contained} from '../../../utility/validation'
 
 
 class AddAreaScreen extends Component {
@@ -39,6 +41,11 @@ class AddAreaScreen extends Component {
         valid:false,
         touched:false,
       },
+      spinner:{
+        value:'',
+        active: true,          
+      },
+      res:null,
       errors:[]
     },
     viewMode: 'portrait',
@@ -98,7 +105,42 @@ class AddAreaScreen extends Component {
     }
   
   };
+  finishingAddingNewArea=(done)=>{
+    console.log(done);
+    if(this.state.controls.res){
+      this.gotoFormerArea(this.state.controls.res.data.addArea.id,this.state.controls.res.data.addArea.nombre);
+    }else{
+      //TODO:: darle la opcion de guardarlo en la memoria del tlf
+      startMainTabs();
+
+    }
+
+  }
+  preMutation= ()=>{
+    this.setState(prevState => {
+      return {
+        controls: {
+          ...prevState.controls,
+          nombre:{ value:'', valid:false, touched:false },
+          spinner:{ value:'', active: true }
+        }
+      }
+    });
+    this.openSpinnerModal();
+  }
+  openSpinnerModal=()=>{
+    Navigation.showModal({
+      screen: 'bloka.SpinnerModal', 
+      passProps: {
+        finishingAddingNewArea:(done)=>this.finishingAddingNewArea(done),
+        spinner: this.state.controls.spinner
+      }, 
+      animationType: 'slide-up'
+    });
+  }
   subirAreaHandler=()=>{
+    //show a spinner in a lightbox
+    this.preMutation();
     this.props.mutate({
       variables:{
         nombre: this.state.controls.nombre.value,
@@ -115,57 +157,75 @@ class AddAreaScreen extends Component {
         return {
           controls: {
             ...prevState.controls,
-            errors: errors
+            errors: errors,
+            spinner:{ value:'ha habido un error al guardar la zona, vuelve a intentarlo mas tarde', active: false }
             }
           }
         }
       );
+      Navigation.dismissModal({animationType: 'slide-down'
+      }).catch((err)=>{
+        console.log('error al cerrar modal spinner')
+      }).then((res)=>{
+        this.openSpinnerModal();  
+      });
       console.log(this.state.controls.errors)
     }).then((res)=>{
       if(res){
         console.log(res);
+        //show the success in the light box, close it , and go to the new created Area
+        this.setState(prevState => {
+          return {
+            controls: {
+              ...prevState.controls,
+              spinner:{ value:'se ha guardado la zona con exito', active: false },
+              res
+            }
+          }
+        });
+        Navigation.dismissModal({animationType: 'slide-down'
+        }).catch((err)=>{
+          console.log('error al cerrar modal spinner')
+        }).then((res)=>{
+          this.openSpinnerModal();  
+        });
         
       }
     })
+
   }
   
   areaRepeated = (inputVal)=>{
     let inputName = inputVal;
     if(inputName && inputName.length>2 && !this.props.data.loading){
-      let matches= [];
-      let check = false;
-      for (i = 0; i < this.props.data.areas.length; i++) {
-        let area = this.props.data.areas[i]
-        let result = contained(area.nombre, inputName);
-        if(result){
-          matches.push(
-            <View style= {styles.formerAreaContainer}
-              key= {this.props.data.areas[i].id}
-            >
-              <TouchableOpacity 
-                onPress= {()=>this.gotoFormerArea(
-                  area.id, area.nombre
-                )}>
-                <Text>{area.nombre}</Text>
-              </TouchableOpacity>
-
-            </View>
-          )
-          check = true;
-        }
-          
-      }
-      if (check){
+      let matches=[]
+      let listFiltered= filterList(this.props.data.areas,inputName);
+      if(listFiltered.length > 0){
         if(this.state.controls.nombre.valid){
           this.validateFields('nombre',false);
-        }
+        } 
+        matches = listFiltered.map(area =>
+          <View style= {styles.formerAreaContainer}
+          key= {area.id}   
+          >
+              <TouchableOpacity
+                id = {area.id}
+                nombre = {area.nombre}
+                onPress= {()=>this.gotoFormerArea(area.id,area.nombre)}>
+                <Text>{area.nombre}</Text>
+              </TouchableOpacity>
+  
+            </View>
+        )
         matches.push(<Text key= 'not repeating key :P'>no repitas areas :) mira a ver si alguna de estas te vale</Text>)
+        
+        this.setState({matches});
       }else{
         if(!this.state.controls.nombre.valid){
           this.validateFields('nombre',true);
         }
+        this.setState({matches:null});
       }
-      this.setState({matches});
     }
     else{ 
       if(!this.state.controls.nombre.valid){

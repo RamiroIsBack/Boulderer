@@ -47,4 +47,18 @@ export const contained=(str1,str2)=>{
   return re.test(str1.toUpperCase());
 
 }
-
+export const filterList=(list,input)=>{
+  let matches=[];
+  if (input !==''){
+    for (i = 0; i < list.length; i++) {
+      let area = list[i]
+      let result = contained(area.nombre, input);
+      if(result){
+        matches.push(list[i])
+      }
+    }
+    return matches;
+  }else{
+    return list; 
+  }
+}

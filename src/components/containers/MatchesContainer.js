@@ -3,7 +3,7 @@ import {graphql} from 'react-apollo';
 import {Navigation} from 'react-native-navigation';
 import {View,Text,TouchableOpacity,StyleSheet} from 'react-native';
 import getProblemsInAreaQuery from '../../queries/GetProblemsInArea';
-import {contained} from '../../utility/validation'
+import {filterList} from '../../utility/validation'
 
 class MatchesContainer extends Component {
   state= {
@@ -20,16 +20,16 @@ class MatchesContainer extends Component {
   problemRepeated = (inputVal)=>{
     let inputName = inputVal;
     if(inputName && inputName.length>2 && !this.props.data.loading){
-      let matches= [];
-      let check = false;
-      for (i = 0; i < this.props.data.area.problems.length; i++) {
-        let problem = this.props.data.area.problems[i]
-        let result = contained(problem.nombre, inputName);
-        if(result){
-          matches.push(
-            <View style= {styles.formerProblemContainer}
-              key= {i}
-            >
+      let matches=[]
+      let listFiltered= filterList(this.props.data.area.problems,inputName);
+      if(listFiltered.length > 0){
+        if(this.props.nombreValid){
+          this.props.validateFields('nombre',false);
+        } 
+        matches= listFiltered.map(problem =>
+          <View style= {styles.formerProblemContainer}
+          key= {problem.id}
+          >
               <TouchableOpacity 
                 onPress= {()=>this.gotoFormerProblem(
                   problem.id, problem.nombre
@@ -39,30 +39,25 @@ class MatchesContainer extends Component {
               </TouchableOpacity>
 
             </View>
-          )
-          check = true;
-        }
-          
-      }
-      if (check){  
-        if(this.props.nombreValid){
-          this.props.validateFields('nombre',false);
-        }
-        matches.push(<Text key= 'not repeating key :P'>no repitas blokes :) mira a ver si alguno de estos te vale</Text>)
+         )
+         matches.push(<Text key= 'not repeating key :P'>no repitas bloques :) mira a ver si alguno de estos te vale</Text>)
+        
+        this.setState({matches});
       }else{
         if(!this.props.nombreValid){
           this.props.validateFields('nombre',true);
         }
-        
+        this.setState({matches:null});
       }
-      this.setState({matches});
     }
-    else{      
+    else{    
       if(!this.props.nombreValid){
         this.props.validateFields('nombre',true);
         this.setState({matches:null});
       }
-      
+      if(this.state.matches !==null){
+        this.setState({matches:null});
+      }
     }
     
   }
